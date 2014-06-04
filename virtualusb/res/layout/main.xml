@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" 
+    	android:layout_width="fill_parent" android:layout_height="wrap_content">
+          
+        <ImageView android:id="@+id/im_bg" android:background="@drawable/wifi" 
+        	android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        	android:layout_marginTop="35.0dip" android:layout_marginBottom="30.0dip" 
+        	android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxWidth="300.0px" 
+        	android:maxHeight="300.0px" android:layout_centerHorizontal="true" />       	
+        <TextView   
+        	android:id="@+id/text_ftpstate" android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" 
+        	android:text="@string/server_stop" android:textColor="#BCBCBC" android:textSize="21dp"/> 
+        <TextView android:textSize="20.0sp"  android:textColor="#BCBCBC"
+        	android:id="@+id/text_visitftp" android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" android:text="" />
+    </LinearLayout>   
+     
+    <LinearLayout android:gravity="center_horizontal" android:id="@+id/adLayouts" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.admogo.AdMogoLayout 
+		android:id="@+id/admogo_layout"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true" />
+    </LinearLayout>
+    
+    <LinearLayout android:orientation="horizontal" android:id="@+id/btn_lay" 
+    	 android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"  android:layout_centerHorizontal="true" 
+    	android:layout_above="@id/adLayouts">  
+    	 
+        <Button android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ff006699" 
+        	android:id="@+id/btn_start" android:background="@drawable/start" 
+        	android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="0.0dip" />
+        <Button android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ff006699" 
+        	android:id="@+id/btn_stop" android:background="@drawable/stop" android:visibility="gone"
+        	android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="0.0dip" />
+        
+        <Button android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ff006699" 
+        	android:id="@+id/btn_help" android:background="@drawable/help" android:layout_width="50.0dip" 
+        	android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" />       
+         
+    </LinearLayout>
+</RelativeLayout>

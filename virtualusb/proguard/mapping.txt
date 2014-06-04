@@ -1,0 +1,2764 @@
+I.I -> I.I:
+    byte[] _ -> _
+    java.lang.String[] __ -> __
+    int[] ___ -> ___
+    java.lang.String I(int) -> I
+cn.domob.android.ads.Constants -> cn.domob.android.ads.Constants:
+    java.lang.String VAL_SDK_VER -> VAL_SDK_VER
+    java.lang.String LOG -> LOG
+    int LOG_LEVEL -> LOG_LEVEL
+cn.domob.android.ads.DBHelper -> cn.domob.android.ads.DBHelper:
+    android.content.Context c -> c
+    cn.domob.android.ads.DBHelper d -> d
+    android.database.sqlite.SQLiteDatabase e -> e
+    android.net.Uri a -> a
+    android.net.Uri b -> b
+    android.net.Uri f -> f
+    android.content.UriMatcher g -> g
+    cn.domob.android.ads.DBHelper a(android.content.Context) -> a
+    android.content.Context a() -> a
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+    android.database.Cursor a(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> a
+    android.net.Uri a(android.net.Uri,android.content.ContentValues) -> a
+    int a(android.net.Uri,java.lang.String) -> a
+    int a(android.net.Uri,android.content.ContentValues,java.lang.String) -> a
+    android.database.Cursor b() -> b
+    void c() -> c
+    int a(android.content.ContentValues) -> a
+    android.database.Cursor b(android.net.Uri,java.lang.String) -> b
+    int a(android.net.Uri) -> a
+    void a(cn.domob.android.ads.DBHelper,java.lang.String,byte[],long) -> a
+cn.domob.android.ads.DBHelper$AdTable -> cn.domob.android.ads.DBHelper$AdTable:
+cn.domob.android.ads.DBHelper$ConfTable -> cn.domob.android.ads.DBHelper$ConfTable:
+cn.domob.android.ads.DomobActionReceiver -> cn.domob.android.ads.DomobActionReceiver:
+    boolean a -> a
+    boolean hasRegReceiver() -> hasRegReceiver
+    void setRegReceiver(boolean) -> setRegReceiver
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void a(android.content.Context,int,java.lang.String) -> a
+cn.domob.android.ads.DomobActivity -> cn.domob.android.ads.DomobActivity:
+    java.lang.String ActivityType -> ActivityType
+    int Type_None -> Type_None
+    int Type_InstallReceiver -> Type_InstallReceiver
+    int Type_Downloader -> Type_Downloader
+    android.content.Context a -> a
+    java.lang.String b -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void initReceiver(android.content.Context) -> initReceiver
+    java.lang.String a(cn.domob.android.ads.DomobActivity) -> a
+cn.domob.android.ads.DomobActivity$1 -> cn.domob.android.ads.DomobActivity$1:
+    cn.domob.android.ads.DomobActivity a -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.domob.android.ads.DomobActivity$2 -> cn.domob.android.ads.DomobActivity$2:
+    cn.domob.android.ads.DomobActivity a -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.domob.android.ads.DomobAdBuilder -> cn.domob.android.ads.DomobAdBuilder:
+    float c -> c
+    cn.domob.android.ads.DomobAdEngine a -> a
+    cn.domob.android.ads.DomobAdView b -> b
+    android.view.View d -> d
+    long e -> e
+    boolean f -> f
+    java.util.Vector g -> g
+    android.view.View h -> h
+    android.graphics.drawable.Drawable i -> i
+    java.lang.String j -> j
+    android.graphics.drawable.Drawable b(cn.domob.android.ads.DomobAdEngine) -> b
+    void a(cn.domob.android.ads.DomobAdEngine) -> a
+    void a(android.view.View) -> a
+    void a(java.lang.String) -> a
+    java.lang.String a() -> a
+    cn.domob.android.ads.DomobAdEngine b() -> b
+    void c() -> c
+    float d() -> d
+    void e() -> e
+    void f() -> f
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    boolean dispatchTrackballEvent(android.view.MotionEvent) -> dispatchTrackballEvent
+    boolean i() -> i
+    void j() -> j
+    java.util.Vector a(int,int,int,long,java.util.Vector) -> a
+    java.util.Vector a(android.view.MotionEvent,java.util.Vector) -> a
+    java.util.Vector a(android.view.KeyEvent,java.util.Vector) -> a
+    void setPressed(boolean) -> setPressed
+    org.json.JSONObject k() -> k
+    org.json.JSONObject l() -> l
+    void a(android.view.View,org.json.JSONObject) -> a
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    java.lang.String g() -> g
+    org.json.JSONObject h() -> h
+cn.domob.android.ads.DomobAdBuilder$ClickThread -> cn.domob.android.ads.DomobAdBuilder$ClickThread:
+    org.json.JSONObject a -> a
+    cn.domob.android.ads.DomobAdBuilder b -> b
+    void run() -> run
+cn.domob.android.ads.DomobAdBuilder$ShowClickAnimViewThread -> cn.domob.android.ads.DomobAdBuilder$ShowClickAnimViewThread:
+    cn.domob.android.ads.DomobAdBuilder a -> a
+    void run() -> run
+cn.domob.android.ads.DomobAdDataItem -> cn.domob.android.ads.DomobAdDataItem:
+    java.lang.String TEXT_TYPE -> TEXT_TYPE
+    java.lang.String IMAGE_TYPE -> IMAGE_TYPE
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    android.graphics.Bitmap d -> d
+    android.graphics.Bitmap e -> e
+    java.lang.String f -> f
+    android.graphics.Bitmap g -> g
+    java.lang.String h -> h
+    org.json.JSONObject i -> i
+    void a(cn.domob.android.ads.DomobAdEngine) -> a
+    void a(java.lang.String) -> a
+    java.lang.String getAd_identifier() -> getAd_identifier
+    boolean isNullAd() -> isNullAd
+    void b(java.lang.String) -> b
+    java.lang.String getAd_type() -> getAd_type
+    void c(java.lang.String) -> c
+    android.graphics.Bitmap getAd_icon() -> getAd_icon
+    void a(android.graphics.Bitmap) -> a
+    android.graphics.Bitmap getAd_action_icon() -> getAd_action_icon
+    void b(android.graphics.Bitmap) -> b
+    java.lang.String getAd_text() -> getAd_text
+    void d(java.lang.String) -> d
+    android.graphics.Bitmap getAdImage() -> getAdImage
+    void c(android.graphics.Bitmap) -> c
+    java.lang.String getAlt_text() -> getAlt_text
+    void e(java.lang.String) -> e
+    boolean a() -> a
+    void a(org.json.JSONObject) -> a
+cn.domob.android.ads.DomobAdEngine -> cn.domob.android.ads.DomobAdEngine:
+    int a -> a
+    android.graphics.Rect b -> b
+    cn.domob.android.ads.DomobAdBuilder c -> c
+    float d -> d
+    boolean e -> e
+    cn.domob.android.ads.DomobAdEngine$RecvHandler f -> f
+    cn.domob.android.ads.DomobAdEngine$e g -> g
+    long h -> h
+    long i -> i
+    boolean j -> j
+    boolean k -> k
+    int l -> l
+    int m -> m
+    java.util.Vector n -> n
+    java.util.Vector o -> o
+    java.util.Vector p -> p
+    java.util.HashSet q -> q
+    java.util.Hashtable r -> r
+    java.util.Hashtable s -> s
+    java.util.Hashtable t -> t
+    java.lang.String u -> u
+    java.lang.String v -> v
+    org.json.JSONObject w -> w
+    cn.domob.android.ads.b x -> x
+    java.util.HashMap y -> y
+    java.util.Vector z -> z
+    java.util.HashMap A -> A
+    android.content.Intent B -> B
+    boolean C -> C
+    java.lang.String D -> D
+    cn.domob.android.ads.DomobAdEngine a(cn.domob.android.ads.DomobAdEngine$RecvHandler,org.json.JSONObject,cn.domob.android.ads.DomobAdBuilder) -> a
+    void a(org.json.JSONObject) -> a
+    boolean h() -> h
+    void i() -> i
+    void b(org.json.JSONObject) -> b
+    int a(int) -> a
+    cn.domob.android.ads.DomobAdBuilder a() -> a
+    void a(cn.domob.android.ads.DomobAdBuilder) -> a
+    int b() -> b
+    int c() -> c
+    android.graphics.Rect d() -> d
+    void e() -> e
+    boolean c(org.json.JSONObject) -> c
+    void j() -> j
+    void k() -> k
+    void l() -> l
+    cn.domob.android.ads.DomobAdEngine$c a(android.view.View,android.widget.RelativeLayout$LayoutParams,java.lang.String) -> a
+    android.view.View a(org.json.JSONObject,android.graphics.Rect) -> a
+    android.view.View d(org.json.JSONObject) -> d
+    float a(org.json.JSONObject,java.lang.String,float) -> a
+    android.graphics.Rect a(org.json.JSONObject,java.lang.String,android.graphics.Rect) -> a
+    android.graphics.PointF a(org.json.JSONObject,java.lang.String,android.graphics.PointF) -> a
+    void a(cn.domob.android.ads.DomobAdEngine) -> a
+    void a(cn.domob.android.ads.d) -> a
+    java.lang.String a(java.lang.String) -> a
+    void a(java.lang.String,android.content.Context) -> a
+    boolean f() -> f
+    java.lang.String g() -> g
+    android.content.Intent b(cn.domob.android.ads.DomobAdEngine) -> b
+    java.util.HashMap c(cn.domob.android.ads.DomobAdEngine) -> c
+    void a(cn.domob.android.ads.DomobAdEngine,int,java.util.HashMap) -> a
+    void a(cn.domob.android.ads.DomobAdEngine,java.lang.String,android.content.Context) -> a
+cn.domob.android.ads.DomobAdEngine$1 -> cn.domob.android.ads.DomobAdEngine$1:
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.domob.android.ads.DomobAdEngine$2 -> cn.domob.android.ads.DomobAdEngine$2:
+    cn.domob.android.ads.DomobAdEngine a -> a
+    android.content.Context b -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.domob.android.ads.DomobAdEngine$3 -> cn.domob.android.ads.DomobAdEngine$3:
+    cn.domob.android.ads.DomobAdEngine a -> a
+    android.content.Context b -> b
+    java.lang.String c -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.domob.android.ads.DomobAdEngine$4 -> cn.domob.android.ads.DomobAdEngine$4:
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.domob.android.ads.DomobAdEngine$5 -> cn.domob.android.ads.DomobAdEngine$5:
+    cn.domob.android.ads.DomobAdEngine a -> a
+    android.content.Context b -> b
+    void onStartDownload() -> onStartDownload
+    void onDownloadSuccess(java.lang.String) -> onDownloadSuccess
+    void onDownloadFailed(int,java.lang.String) -> onDownloadFailed
+    void onDownloadCanceled() -> onDownloadCanceled
+cn.domob.android.ads.DomobAdEngine$RecvHandler -> cn.domob.android.ads.DomobAdEngine$RecvHandler:
+    cn.domob.android.ads.DomobAdView a -> a
+    cn.domob.android.ads.DomobAdView a() -> a
+    void failed() -> failed
+    void received(cn.domob.android.ads.DomobAdEngine) -> received
+cn.domob.android.ads.DomobAdEngine$a -> cn.domob.android.ads.DomobAdEngine$a:
+    cn.domob.android.ads.d a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,cn.domob.android.ads.a,int,java.lang.String) -> a
+    cn.domob.android.ads.d a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,cn.domob.android.ads.a,java.lang.String) -> a
+    cn.domob.android.ads.d a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,cn.domob.android.ads.a) -> a
+    cn.domob.android.ads.d a(java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    cn.domob.android.ads.d a(java.lang.String,java.lang.String) -> a
+    void a(cn.domob.android.ads.d) -> a
+cn.domob.android.ads.DomobAdEngine$b -> cn.domob.android.ads.DomobAdEngine$b:
+    java.util.Vector a -> a
+    cn.domob.android.ads.DomobAdBuilder b -> b
+    cn.domob.android.ads.DomobAdEngine c -> c
+    void run() -> run
+cn.domob.android.ads.DomobAdEngine$c -> cn.domob.android.ads.DomobAdEngine$c:
+    android.view.View a -> a
+    android.widget.RelativeLayout$LayoutParams b -> b
+    java.lang.String c -> c
+cn.domob.android.ads.DomobAdEngine$d -> cn.domob.android.ads.DomobAdEngine$d:
+    java.lang.String a -> a
+cn.domob.android.ads.DomobAdEngine$e -> cn.domob.android.ads.DomobAdEngine$e:
+    void f() -> f
+cn.domob.android.ads.DomobAdListener -> cn.domob.android.ads.DomobAdListener:
+    void onReceivedFreshAd(cn.domob.android.ads.DomobAdView) -> onReceivedFreshAd
+    void onFailedToReceiveFreshAd(cn.domob.android.ads.DomobAdView) -> onFailedToReceiveFreshAd
+cn.domob.android.ads.DomobAdManager -> cn.domob.android.ads.DomobAdManager:
+    java.lang.String GENDER_MALE -> GENDER_MALE
+    java.lang.String GENDER_FEMALE -> GENDER_FEMALE
+    java.lang.String ACTION_URL -> ACTION_URL
+    java.lang.String ACTION_IN_APP -> ACTION_IN_APP
+    java.lang.String ACTION_MAP -> ACTION_MAP
+    java.lang.String ACTION_SMS -> ACTION_SMS
+    java.lang.String ACTION_MAIL -> ACTION_MAIL
+    java.lang.String ACTION_MARKET -> ACTION_MARKET
+    java.lang.String ACTION_CALL -> ACTION_CALL
+    java.lang.String ACTION_VIDEO -> ACTION_VIDEO
+    java.lang.String ACTION_AUDIO -> ACTION_AUDIO
+    java.lang.String a -> a
+    int b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String TEST_EMULATOR -> TEST_EMULATOR
+    java.lang.Boolean e -> e
+    boolean f -> f
+    java.lang.String g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    android.location.Location j -> j
+    boolean k -> k
+    boolean l -> l
+    long m -> m
+    java.lang.String n -> n
+    java.lang.String o -> o
+    java.util.GregorianCalendar p -> p
+    boolean q -> q
+    void a(android.content.Context) -> a
+    void setAllowUseOfLocation(boolean) -> setAllowUseOfLocation
+    void setPublisherId(java.lang.String) -> setPublisherId
+    java.lang.String getPublisherId(android.content.Context) -> getPublisherId
+    boolean k(android.content.Context) -> k
+    java.lang.String b(android.content.Context) -> b
+    java.lang.String c(android.content.Context) -> c
+    java.lang.String l(android.content.Context) -> l
+    java.lang.String m(android.content.Context) -> m
+    java.lang.String d(android.content.Context) -> d
+    float n(android.content.Context) -> n
+    float a(android.view.View) -> a
+    int a(android.content.Context,android.view.View) -> a
+    int b(android.content.Context,android.view.View) -> b
+    int e(android.content.Context) -> e
+    android.location.Location o(android.content.Context) -> o
+    android.location.Location a(android.location.Location) -> a
+    java.lang.String f(android.content.Context) -> f
+    long a(long) -> a
+    java.lang.String a() -> a
+    void setPostalCode(java.lang.String) -> setPostalCode
+    java.lang.String getPostalCode() -> getPostalCode
+    void setBirthday(java.util.GregorianCalendar) -> setBirthday
+    void setBirthday(int,int,int) -> setBirthday
+    java.util.GregorianCalendar getBirthday() -> getBirthday
+    java.lang.String b() -> b
+    void setGender(java.lang.String) -> setGender
+    java.lang.String getGender() -> getGender
+    boolean isTestMode(android.content.Context) -> isTestMode
+    void setIsTestMode(boolean) -> setIsTestMode
+    void setTestAction(java.lang.String) -> setTestAction
+    java.lang.String getTestAction() -> getTestAction
+    boolean isTestAllowed(android.content.Context) -> isTestAllowed
+    java.lang.String g(android.content.Context) -> g
+    java.lang.String h(android.content.Context) -> h
+    int i(android.content.Context) -> i
+    android.database.Cursor j(android.content.Context) -> j
+    void setEndpoint(java.lang.String) -> setEndpoint
+    java.lang.String getEndpoint() -> getEndpoint
+cn.domob.android.ads.DomobAdManager$DomobLocationListener -> cn.domob.android.ads.DomobAdManager$DomobLocationListener:
+    android.location.LocationManager a -> a
+    void onLocationChanged(android.location.Location) -> onLocationChanged
+    void onProviderDisabled(java.lang.String) -> onProviderDisabled
+    void onProviderEnabled(java.lang.String) -> onProviderEnabled
+    void onStatusChanged(java.lang.String,int,android.os.Bundle) -> onStatusChanged
+cn.domob.android.ads.DomobAdView -> cn.domob.android.ads.DomobAdView:
+    java.lang.Boolean c -> c
+    cn.domob.android.ads.DomobAdBuilder d -> d
+    java.lang.String e -> e
+    cn.domob.android.ads.DomobAdEngine$RecvHandler f -> f
+    int g -> g
+    int h -> h
+    long i -> i
+    long j -> j
+    long k -> k
+    java.lang.String l -> l
+    cn.domob.android.ads.DomobAdListener m -> m
+    boolean n -> n
+    boolean o -> o
+    boolean p -> p
+    boolean a -> a
+    boolean q -> q
+    long r -> r
+    long s -> s
+    int t -> t
+    boolean u -> u
+    android.content.Context v -> v
+    boolean w -> w
+    boolean x -> x
+    cn.domob.android.ads.c y -> y
+    boolean z -> z
+    android.os.Handler b -> b
+    cn.domob.android.ads.DomobAdView$c A -> A
+    int ANIMATION_ROTATE -> ANIMATION_ROTATE
+    int ANIMATION_ALPHA -> ANIMATION_ALPHA
+    int ANIMATION_SCALE_FROM_MIDDLE -> ANIMATION_SCALE_FROM_MIDDLE
+    int ANIMATION_TRANSLATE -> ANIMATION_TRANSLATE
+    int ANIMATION_FRAGMENT -> ANIMATION_FRAGMENT
+    java.util.ArrayList B -> B
+    boolean C -> C
+    int D -> D
+    int E -> E
+    boolean a(android.content.Context) -> a
+    void onMeasure(int,int) -> onMeasure
+    void a(cn.domob.android.ads.DomobAdView,boolean) -> a
+    void requestFreshAd() -> requestFreshAd
+    boolean i() -> i
+    void a(cn.domob.android.ads.DomobAdView) -> a
+    void j() -> j
+    void k() -> k
+    int getRequestInterval() -> getRequestInterval
+    void setRequestInterval(int) -> setRequestInterval
+    int a(int) -> a
+    void a(boolean) -> a
+    void l() -> l
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+    void onWindowVisibilityChanged(int) -> onWindowVisibilityChanged
+    void onAttachedToWindow() -> onAttachedToWindow
+    void onDetachedFromWindow() -> onDetachedFromWindow
+    long a() -> a
+    void setPrimaryTextColor(int) -> setPrimaryTextColor
+    long b() -> b
+    void setBackgroundColor(int) -> setBackgroundColor
+    java.lang.String getKeywords() -> getKeywords
+    void setKeywords(java.lang.String) -> setKeywords
+    java.lang.String getSpots() -> getSpots
+    void setSpots(java.lang.String) -> setSpots
+    void setVisibility(int) -> setVisibility
+    void a(boolean,long,long) -> a
+    void setAdListener(cn.domob.android.ads.DomobAdListener) -> setAdListener
+    cn.domob.android.ads.DomobAdListener getAdListener() -> getAdListener
+    boolean hasAd() -> hasAd
+    void cleanup() -> cleanup
+    boolean b(android.content.Context) -> b
+    cn.domob.android.ads.DomobAdBuilder a(cn.domob.android.ads.DomobAdView,cn.domob.android.ads.DomobAdBuilder) -> a
+    int b(cn.domob.android.ads.DomobAdView) -> b
+    cn.domob.android.ads.DomobAdListener c(cn.domob.android.ads.DomobAdView) -> c
+    java.lang.String d(cn.domob.android.ads.DomobAdView) -> d
+    java.lang.String e(cn.domob.android.ads.DomobAdView) -> e
+    void b(cn.domob.android.ads.DomobAdView,boolean) -> b
+    void c(cn.domob.android.ads.DomobAdView,boolean) -> c
+    cn.domob.android.ads.DomobAdEngine$RecvHandler f(cn.domob.android.ads.DomobAdView) -> f
+    void g(cn.domob.android.ads.DomobAdView) -> g
+    void h(cn.domob.android.ads.DomobAdView) -> h
+    void a(cn.domob.android.ads.DomobAdEngine,cn.domob.android.ads.DomobAdBuilder) -> a
+    void b(cn.domob.android.ads.DomobAdView,cn.domob.android.ads.DomobAdBuilder) -> b
+    void a(cn.domob.android.ads.DomobAdView,cn.domob.android.ads.DomobAdBuilder,int) -> a
+    boolean c() -> c
+    boolean d() -> d
+    boolean e() -> e
+    cn.domob.android.ads.c f() -> f
+    void a(cn.domob.android.ads.DomobAdView,cn.domob.android.ads.c) -> a
+    void b(cn.domob.android.ads.DomobAdView,cn.domob.android.ads.c) -> b
+    cn.domob.android.ads.e g() -> g
+    void SetAnimList(int[]) -> SetAnimList
+    java.util.ArrayList h() -> h
+    boolean i(cn.domob.android.ads.DomobAdView) -> i
+    android.content.Context j(cn.domob.android.ads.DomobAdView) -> j
+    int k(cn.domob.android.ads.DomobAdView) -> k
+    boolean l(cn.domob.android.ads.DomobAdView) -> l
+    cn.domob.android.ads.DomobAdBuilder m(cn.domob.android.ads.DomobAdView) -> m
+cn.domob.android.ads.DomobAdView$a -> cn.domob.android.ads.DomobAdView$a:
+    cn.domob.android.ads.DomobAdBuilder a -> a
+    cn.domob.android.ads.DomobAdView b -> b
+    int c -> c
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+cn.domob.android.ads.DomobAdView$b -> cn.domob.android.ads.DomobAdView$b:
+    cn.domob.android.ads.DomobAdView a -> a
+    void run() -> run
+cn.domob.android.ads.DomobAdView$c -> cn.domob.android.ads.DomobAdView$c:
+    boolean a -> a
+    cn.domob.android.ads.DomobAdView b -> b
+    void run() -> run
+cn.domob.android.ads.DomobAdView$d -> cn.domob.android.ads.DomobAdView$d:
+    cn.domob.android.ads.DomobAdView a -> a
+    cn.domob.android.ads.DomobAdBuilder b -> b
+    int c -> c
+    boolean d -> d
+    cn.domob.android.ads.DomobAdView e -> e
+    void run() -> run
+cn.domob.android.ads.DomobAdView$e -> cn.domob.android.ads.DomobAdView$e:
+    cn.domob.android.ads.DomobAdView a -> a
+    void run() -> run
+cn.domob.android.ads.DomobImageView -> cn.domob.android.ads.DomobImageView:
+    android.widget.ImageView a -> a
+    cn.domob.android.ads.giftool.GifView b -> b
+    int c -> c
+    android.content.Context d -> d
+    android.view.View getCurrentView() -> getCurrentView
+    void setScaleType(android.widget.ImageView$ScaleType) -> setScaleType
+    void setImageBitmap(android.graphics.Bitmap,byte[]) -> setImageBitmap
+cn.domob.android.ads.DomobReport -> cn.domob.android.ads.DomobReport:
+    android.content.Context a -> a
+    java.lang.String a(int) -> a
+    void a(cn.domob.android.ads.DomobReport$ReportInfo) -> a
+    java.lang.String a(java.util.HashMap) -> a
+    java.util.HashMap b(cn.domob.android.ads.DomobReport$ReportInfo) -> b
+    java.util.HashMap a(cn.domob.android.ads.DomobReport,cn.domob.android.ads.DomobReport$ReportInfo) -> a
+    java.lang.String a(cn.domob.android.ads.DomobReport,java.util.HashMap) -> a
+    android.content.Context a(cn.domob.android.ads.DomobReport) -> a
+    java.lang.String a(cn.domob.android.ads.DomobReport,int) -> a
+    android.view.animation.Animation a(int,cn.domob.android.ads.DomobAdView) -> a
+    int a(cn.domob.android.ads.DomobAdView) -> a
+cn.domob.android.ads.DomobReport$1 -> cn.domob.android.ads.DomobReport$1:
+    cn.domob.android.ads.DomobReport a -> a
+    cn.domob.android.ads.DomobReport$ReportInfo b -> b
+    void run() -> run
+cn.domob.android.ads.DomobReport$ActionType -> cn.domob.android.ads.DomobReport$ActionType:
+cn.domob.android.ads.DomobReport$IDType -> cn.domob.android.ads.DomobReport$IDType:
+cn.domob.android.ads.DomobReport$ReportInfo -> cn.domob.android.ads.DomobReport$ReportInfo:
+    int a -> a
+    int b -> b
+    java.util.ArrayList c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+cn.domob.android.ads.a -> cn.domob.android.ads.a:
+    void a(cn.domob.android.ads.d) -> a
+cn.domob.android.ads.b -> cn.domob.android.ads.b:
+    boolean a(cn.domob.android.ads.DBHelper,java.lang.String,java.lang.String,java.util.Hashtable) -> a
+    void a(cn.domob.android.ads.DBHelper,java.lang.String,byte[]) -> a
+    boolean b(cn.domob.android.ads.DBHelper,java.lang.String,java.lang.String,java.util.Hashtable) -> b
+cn.domob.android.ads.c -> cn.domob.android.ads.c:
+    java.util.ArrayList a -> a
+    java.util.ArrayList a() -> a
+cn.domob.android.ads.d -> cn.domob.android.ads.d:
+    java.util.concurrent.Executor m -> m
+    java.net.URL a -> a
+    java.net.Proxy b -> b
+    cn.domob.android.ads.a c -> c
+    java.lang.String d -> d
+    int e -> e
+    java.util.Map f -> f
+    java.lang.String n -> n
+    java.lang.String g -> g
+    byte[] h -> h
+    boolean i -> i
+    int j -> j
+    java.lang.String k -> k
+    java.lang.String l -> l
+    boolean a() -> a
+    void a(android.content.Context) -> a
+    void a(java.lang.String,int) -> a
+    void b() -> b
+    java.lang.String c() -> c
+    byte[] d() -> d
+    int e() -> e
+    java.lang.String f() -> f
+cn.domob.android.ads.e -> cn.domob.android.ads.e:
+    int a -> a
+    int a() -> a
+cn.domob.android.ads.f -> cn.domob.android.ads.f:
+    android.content.Context a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    int d -> d
+    boolean e -> e
+    long f -> f
+    long g -> g
+    java.lang.String h -> h
+    boolean i -> i
+    cn.domob.android.ads.f a(android.content.Context,org.json.JSONObject) -> a
+    int a() -> a
+    boolean b() -> b
+    long c() -> c
+    long d() -> d
+    boolean a(org.json.JSONObject) -> a
+cn.domob.android.ads.g -> cn.domob.android.ads.g:
+    cn.domob.android.ads.DomobAdView a -> a
+    void run() -> run
+cn.domob.android.ads.giftool.GifView -> cn.domob.android.ads.giftool.GifView:
+    cn.domob.android.ads.giftool.b a -> a
+    android.graphics.Bitmap b -> b
+    boolean c -> c
+    boolean d -> d
+    int e -> e
+    android.graphics.Rect f -> f
+    android.view.View g -> g
+    cn.domob.android.ads.giftool.GifView$a h -> h
+    cn.domob.android.ads.giftool.GifView$GifImageType i -> i
+    cn.domob.android.ads.giftool.GifView$a j -> j
+    int[] k -> k
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+    void a(java.io.InputStream) -> a
+    void setGifImage(byte[]) -> setGifImage
+    void setGifImage(java.io.InputStream) -> setGifImage
+    void setGifImage(int) -> setGifImage
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void onMeasure(int,int) -> onMeasure
+    void showCover() -> showCover
+    void showAnimation() -> showAnimation
+    void setGifImageType(cn.domob.android.ads.giftool.GifView$GifImageType) -> setGifImageType
+    void setShowDimension(int,int) -> setShowDimension
+    void parseOk(boolean,int) -> parseOk
+    void clear() -> clear
+    cn.domob.android.ads.giftool.b a(cn.domob.android.ads.giftool.GifView) -> a
+    boolean b(cn.domob.android.ads.giftool.GifView) -> b
+    boolean c(cn.domob.android.ads.giftool.GifView) -> c
+    void a(cn.domob.android.ads.giftool.GifView,android.graphics.Bitmap) -> a
+    android.view.View d(cn.domob.android.ads.giftool.GifView) -> d
+    int[] a() -> a
+cn.domob.android.ads.giftool.GifView$GifImageType -> cn.domob.android.ads.giftool.GifView$GifImageType:
+    cn.domob.android.ads.giftool.GifView$GifImageType WAIT_FINISH -> WAIT_FINISH
+    cn.domob.android.ads.giftool.GifView$GifImageType SYNC_DECODER -> SYNC_DECODER
+    cn.domob.android.ads.giftool.GifView$GifImageType COVER -> COVER
+    cn.domob.android.ads.giftool.GifView$GifImageType[] a -> a
+    cn.domob.android.ads.giftool.GifView$GifImageType[] values() -> values
+    cn.domob.android.ads.giftool.GifView$GifImageType valueOf(java.lang.String) -> valueOf
+cn.domob.android.ads.giftool.GifView$a -> cn.domob.android.ads.giftool.GifView$a:
+    cn.domob.android.ads.giftool.GifView a -> a
+    void run() -> run
+cn.domob.android.ads.giftool.a -> cn.domob.android.ads.giftool.a:
+    void parseOk(boolean,int) -> parseOk
+cn.domob.android.ads.giftool.b -> cn.domob.android.ads.giftool.b:
+    java.io.InputStream c -> c
+    int d -> d
+    int a -> a
+    int b -> b
+    boolean e -> e
+    int f -> f
+    int[] g -> g
+    int[] h -> h
+    int[] i -> i
+    int j -> j
+    int k -> k
+    int l -> l
+    boolean m -> m
+    boolean n -> n
+    int o -> o
+    int p -> p
+    int q -> q
+    int r -> r
+    int s -> s
+    int t -> t
+    int u -> u
+    int v -> v
+    int w -> w
+    android.graphics.Bitmap x -> x
+    android.graphics.Bitmap y -> y
+    cn.domob.android.ads.giftool.c z -> z
+    boolean A -> A
+    byte[] B -> B
+    int C -> C
+    int D -> D
+    int E -> E
+    boolean F -> F
+    int G -> G
+    int H -> H
+    short[] I -> I
+    byte[] J -> J
+    byte[] K -> K
+    byte[] L -> L
+    cn.domob.android.ads.giftool.c M -> M
+    int N -> N
+    cn.domob.android.ads.giftool.a O -> O
+    byte[] P -> P
+    void run() -> run
+    void a() -> a
+    int b() -> b
+    android.graphics.Bitmap c() -> c
+    void e() -> e
+    android.graphics.Bitmap a(int) -> a
+    cn.domob.android.ads.giftool.c d() -> d
+    int f() -> f
+    boolean g() -> g
+    int h() -> h
+    int i() -> i
+    int[] b(int) -> b
+    void j() -> j
+    void k() -> k
+    int l() -> l
+    void m() -> m
+cn.domob.android.ads.giftool.c -> cn.domob.android.ads.giftool.c:
+    android.graphics.Bitmap a -> a
+    int b -> b
+    cn.domob.android.ads.giftool.c c -> c
+cn.domob.android.ads.h -> cn.domob.android.ads.h:
+    cn.domob.android.ads.DomobAdView a -> a
+    void run() -> run
+cn.domob.android.ads.i -> cn.domob.android.ads.i:
+    android.app.ProgressDialog a -> a
+    android.webkit.WebView b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    android.content.Context e -> e
+    android.app.Dialog f -> f
+    java.util.HashMap g -> g
+    android.widget.RelativeLayout h -> h
+    android.widget.RelativeLayout i -> i
+    android.view.animation.Animation j -> j
+    android.view.animation.Animation k -> k
+    android.view.animation.Animation l -> l
+    android.view.animation.Animation m -> m
+    android.os.Handler n -> n
+    int o -> o
+    int p -> p
+    int q -> q
+    float r -> r
+    android.widget.ImageButton s -> s
+    android.widget.ImageButton t -> t
+    android.widget.ImageView u -> u
+    android.view.animation.RotateAnimation v -> v
+    int w -> w
+    cn.domob.android.ads.DomobAdView x -> x
+    boolean y -> y
+    boolean z -> z
+    android.app.Dialog a(android.content.Context,java.lang.String,java.lang.String,android.app.ProgressDialog,cn.domob.android.ads.DomobAdView,java.util.HashMap) -> a
+    android.app.Dialog a(cn.domob.android.ads.DomobAdView,java.lang.String,android.app.ProgressDialog,java.util.HashMap) -> a
+    boolean a(int,int) -> a
+    java.lang.String a(java.lang.String) -> a
+    android.graphics.drawable.Drawable a(java.lang.String,android.content.Context) -> a
+    android.widget.LinearLayout a(java.lang.String,android.widget.ImageButton) -> a
+    android.widget.LinearLayout a() -> a
+    void b() -> b
+    android.app.Dialog a(cn.domob.android.ads.i) -> a
+    int b(cn.domob.android.ads.i) -> b
+    android.content.Context c(cn.domob.android.ads.i) -> c
+    int d(cn.domob.android.ads.i) -> d
+    void a(cn.domob.android.ads.i,int) -> a
+    android.widget.ImageView e(cn.domob.android.ads.i) -> e
+    android.view.animation.RotateAnimation f(cn.domob.android.ads.i) -> f
+    void a(cn.domob.android.ads.i,java.lang.String,android.content.Context,boolean) -> a
+    boolean g(cn.domob.android.ads.i) -> g
+    void a(cn.domob.android.ads.i,boolean) -> a
+    void h(cn.domob.android.ads.i) -> h
+    boolean i(cn.domob.android.ads.i) -> i
+    void b(cn.domob.android.ads.i,boolean) -> b
+    void j(cn.domob.android.ads.i) -> j
+    android.os.Handler k(cn.domob.android.ads.i) -> k
+    void l(cn.domob.android.ads.i) -> l
+    void m(cn.domob.android.ads.i) -> m
+    void n(cn.domob.android.ads.i) -> n
+    java.lang.String o(cn.domob.android.ads.i) -> o
+    void p(cn.domob.android.ads.i) -> p
+cn.domob.android.ads.i$1 -> cn.domob.android.ads.i$1:
+    cn.domob.android.ads.i a -> a
+    void onDismiss(android.content.DialogInterface) -> onDismiss
+cn.domob.android.ads.i$10 -> cn.domob.android.ads.i$10:
+    void onProgressChanged(android.webkit.WebView,int) -> onProgressChanged
+cn.domob.android.ads.i$11 -> cn.domob.android.ads.i$11:
+    cn.domob.android.ads.i a -> a
+    void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long) -> onDownloadStart
+cn.domob.android.ads.i$12 -> cn.domob.android.ads.i$12:
+    cn.domob.android.ads.i a -> a
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+    void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
+    void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String) -> onReceivedError
+cn.domob.android.ads.i$13 -> cn.domob.android.ads.i$13:
+    cn.domob.android.ads.i a -> a
+    void onProgressChanged(android.webkit.WebView,int) -> onProgressChanged
+cn.domob.android.ads.i$14 -> cn.domob.android.ads.i$14:
+    cn.domob.android.ads.i a -> a
+    void onClick(android.view.View) -> onClick
+cn.domob.android.ads.i$15 -> cn.domob.android.ads.i$15:
+    cn.domob.android.ads.i a -> a
+    void onClick(android.view.View) -> onClick
+cn.domob.android.ads.i$2 -> cn.domob.android.ads.i$2:
+    cn.domob.android.ads.i a -> a
+    void onClick(android.view.View) -> onClick
+cn.domob.android.ads.i$3 -> cn.domob.android.ads.i$3:
+    cn.domob.android.ads.i a -> a
+    void onClick(android.view.View) -> onClick
+cn.domob.android.ads.i$4 -> cn.domob.android.ads.i$4:
+    cn.domob.android.ads.i a -> a
+    void onClick(android.view.View) -> onClick
+cn.domob.android.ads.i$5 -> cn.domob.android.ads.i$5:
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.domob.android.ads.i$6 -> cn.domob.android.ads.i$6:
+    android.content.Context a -> a
+    android.content.Intent b -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+cn.domob.android.ads.i$7 -> cn.domob.android.ads.i$7:
+    cn.domob.android.ads.i a -> a
+    android.content.Context b -> b
+    void onStartDownload() -> onStartDownload
+    void onDownloadSuccess(java.lang.String) -> onDownloadSuccess
+    void onDownloadFailed(int,java.lang.String) -> onDownloadFailed
+    void onDownloadCanceled() -> onDownloadCanceled
+cn.domob.android.ads.i$8 -> cn.domob.android.ads.i$8:
+    cn.domob.android.ads.i a -> a
+    void onDismiss(android.content.DialogInterface) -> onDismiss
+cn.domob.android.ads.i$9 -> cn.domob.android.ads.i$9:
+    cn.domob.android.ads.i a -> a
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+    void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
+cn.domob.android.ads.i$a -> cn.domob.android.ads.i$a:
+    cn.domob.android.ads.i a -> a
+    void run() -> run
+cn.domob.android.ads.j -> cn.domob.android.ads.j:
+    java.lang.String a -> a
+    int b -> b
+    java.lang.String c -> c
+    long d -> d
+    long e -> e
+    boolean f -> f
+    cn.domob.android.ads.d g -> g
+    cn.domob.android.ads.DomobAdEngine h -> h
+    cn.domob.android.ads.DomobAdView i -> i
+    android.content.Context j -> j
+    cn.domob.android.ads.d a() -> a
+    void b() -> b
+    cn.domob.android.ads.DomobAdEngine a(cn.domob.android.ads.DomobAdEngine$RecvHandler,cn.domob.android.ads.DomobAdBuilder,int,int) -> a
+    boolean a(java.lang.String,cn.domob.android.ads.DomobAdView) -> a
+    android.graphics.Bitmap a(java.lang.String,android.content.Context) -> a
+    cn.domob.android.ads.f a(android.content.Context,cn.domob.android.ads.DomobAdView) -> a
+    void a(android.content.Context,java.lang.StringBuilder,java.lang.String,boolean,cn.domob.android.ads.e) -> a
+    java.lang.String a(android.content.Context) -> a
+    java.lang.String b(android.content.Context) -> b
+    long c() -> c
+    java.lang.String a(android.content.Context,java.lang.String) -> a
+    void a(java.lang.StringBuilder,java.lang.String,java.lang.String) -> a
+    void a(java.lang.String) -> a
+    java.lang.String d() -> d
+cn.domob.android.ads.k -> cn.domob.android.ads.k:
+    float a -> a
+    boolean b -> b
+    float c -> c
+    void onMeasure(int,int) -> onMeasure
+cn.domob.android.ads.l -> cn.domob.android.ads.l:
+    java.lang.String a -> a
+    java.lang.String a(android.content.Context) -> a
+    java.lang.String a(java.lang.String) -> a
+    boolean b(java.lang.String) -> b
+cn.domob.android.ads.m -> cn.domob.android.ads.m:
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+    void onWindowVisibilityChanged(int) -> onWindowVisibilityChanged
+cn.domob.android.ads.n -> cn.domob.android.ads.n:
+    android.widget.ImageView[][] a -> a
+    android.os.Handler b -> b
+    int c -> c
+    int d -> d
+    cn.domob.android.ads.DomobAdView e -> e
+    cn.domob.android.ads.DomobAdBuilder f -> f
+    cn.domob.android.ads.DomobAdBuilder g -> g
+    java.util.ArrayList h -> h
+    android.graphics.Bitmap i -> i
+    void a(cn.domob.android.ads.DomobAdView,cn.domob.android.ads.DomobAdBuilder,cn.domob.android.ads.DomobAdBuilder) -> a
+    void a(android.view.animation.TranslateAnimation,int,int) -> a
+    android.widget.ImageView[][] a(cn.domob.android.ads.n) -> a
+    cn.domob.android.ads.DomobAdView b(cn.domob.android.ads.n) -> b
+    cn.domob.android.ads.DomobAdBuilder c(cn.domob.android.ads.n) -> c
+    cn.domob.android.ads.DomobAdBuilder d(cn.domob.android.ads.n) -> d
+    android.graphics.Bitmap e(cn.domob.android.ads.n) -> e
+    java.util.ArrayList f(cn.domob.android.ads.n) -> f
+cn.domob.android.ads.n$a -> cn.domob.android.ads.n$a:
+    cn.domob.android.ads.n a -> a
+    void run() -> run
+cn.domob.android.ads.o -> cn.domob.android.ads.o:
+    org.json.JSONObject h() -> h
+    java.lang.String g() -> g
+cn.domob.android.ads.p -> cn.domob.android.ads.p:
+    float a -> a
+    float b -> b
+    float c -> c
+    float d -> d
+    float e -> e
+    boolean f -> f
+    android.graphics.Camera g -> g
+    void initialize(int,int,int,int) -> initialize
+    void applyTransformation(float,android.view.animation.Transformation) -> applyTransformation
+cn.domob.android.ads.q -> cn.domob.android.ads.q:
+    java.net.HttpURLConnection m -> m
+    boolean a() -> a
+    void g() -> g
+    void run() -> run
+cn.domob.android.download.AppExchangeDownloader -> cn.domob.android.download.AppExchangeDownloader:
+    android.content.Context a -> a
+    android.app.Notification b -> b
+    android.app.NotificationManager c -> c
+    int d -> d
+    int e -> e
+    cn.domob.android.download.AppExchangeDownloaderListener f -> f
+    java.lang.String g -> g
+    int h -> h
+    java.util.Hashtable Download_Map -> Download_Map
+    java.util.Hashtable i -> i
+    int j -> j
+    java.lang.String Type_Cancel -> Type_Cancel
+    java.lang.String Type_Install -> Type_Install
+    java.lang.String Act_Type -> Act_Type
+    java.lang.String App_Name -> App_Name
+    java.lang.String App_Id -> App_Id
+    java.lang.String App_Notify_Id -> App_Notify_Id
+    java.lang.String App_Download_Path -> App_Download_Path
+    java.lang.String k -> k
+    java.lang.String l -> l
+    java.lang.String m -> m
+    android.app.PendingIntent n -> n
+    android.os.Handler o -> o
+    cn.domob.android.download.DownloadTask p -> p
+    void downloadApp(java.lang.String,java.lang.String,android.content.Context,cn.domob.android.download.AppExchangeDownloaderListener) -> downloadApp
+    cn.domob.android.download.AppExchangeDownloaderListener getDownloadListener() -> getDownloadListener
+    android.content.Intent a(java.lang.String) -> a
+    android.content.Intent appIsDownload(android.content.Context,java.lang.String,java.lang.String) -> appIsDownload
+    void stopDownload() -> stopDownload
+    java.lang.String b(java.lang.String) -> b
+    int a(cn.domob.android.download.AppExchangeDownloader) -> a
+    void a(cn.domob.android.download.AppExchangeDownloader,int) -> a
+    void b(cn.domob.android.download.AppExchangeDownloader,int) -> b
+    android.app.Notification b(cn.domob.android.download.AppExchangeDownloader) -> b
+    android.content.Context a() -> a
+    java.lang.String c(cn.domob.android.download.AppExchangeDownloader) -> c
+    android.app.PendingIntent d(cn.domob.android.download.AppExchangeDownloader) -> d
+    android.app.NotificationManager e(cn.domob.android.download.AppExchangeDownloader) -> e
+    int f(cn.domob.android.download.AppExchangeDownloader) -> f
+    int g(cn.domob.android.download.AppExchangeDownloader) -> g
+    java.lang.String h(cn.domob.android.download.AppExchangeDownloader) -> h
+    void a(cn.domob.android.download.AppExchangeDownloader,java.lang.String) -> a
+    java.lang.String i(cn.domob.android.download.AppExchangeDownloader) -> i
+    cn.domob.android.download.AppExchangeDownloaderListener j(cn.domob.android.download.AppExchangeDownloader) -> j
+    void a(cn.domob.android.download.AppExchangeDownloader,android.app.PendingIntent) -> a
+    void b(cn.domob.android.download.AppExchangeDownloader,java.lang.String) -> b
+    void c(cn.domob.android.download.AppExchangeDownloader,java.lang.String) -> c
+    android.os.Handler k(cn.domob.android.download.AppExchangeDownloader) -> k
+cn.domob.android.download.AppExchangeDownloader$a -> cn.domob.android.download.AppExchangeDownloader$a:
+    cn.domob.android.download.AppExchangeDownloader a -> a
+    void a(int) -> a
+    void a(java.lang.String) -> a
+cn.domob.android.download.AppExchangeDownloader$b -> cn.domob.android.download.AppExchangeDownloader$b:
+    cn.domob.android.download.AppExchangeDownloader a -> a
+    void a(long,long) -> a
+    void a(java.lang.String) -> a
+    void b(java.lang.String) -> b
+    void c(java.lang.String) -> c
+    void a() -> a
+    void d(java.lang.String) -> d
+cn.domob.android.download.AppExchangeDownloaderListener -> cn.domob.android.download.AppExchangeDownloaderListener:
+    void onDownloadSuccess(java.lang.String) -> onDownloadSuccess
+    void onDownloadFailed(int,java.lang.String) -> onDownloadFailed
+    void onStartDownload() -> onStartDownload
+    void onDownloadCanceled() -> onDownloadCanceled
+cn.domob.android.download.DownloadTask -> cn.domob.android.download.DownloadTask:
+    int a -> a
+    int b -> b
+    int c -> c
+    int d -> d
+    int e -> e
+    cn.domob.android.download.AppExchangeDownloader$a f -> f
+    boolean g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    cn.domob.android.download.DownloadTask$TaskState j -> j
+    void run() -> run
+    void a() -> a
+cn.domob.android.download.DownloadTask$TaskState -> cn.domob.android.download.DownloadTask$TaskState:
+    boolean a -> a
+cn.domob.android.download.FileDownloadThread -> cn.domob.android.download.FileDownloadThread:
+    java.net.URL a -> a
+    java.io.File b -> b
+    int c -> c
+    int d -> d
+    int e -> e
+    boolean f -> f
+    int g -> g
+    cn.domob.android.download.DownloadTask$TaskState h -> h
+    cn.domob.android.download.AppExchangeDownloader$a i -> i
+    void run() -> run
+    boolean isFinished() -> isFinished
+    int getDownloadSize() -> getDownloadSize
+cn.domob.android.download.a -> cn.domob.android.download.a:
+    cn.domob.android.download.AppExchangeDownloader a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+cn.domob.android.download.b -> cn.domob.android.download.b:
+    cn.domob.android.download.AppExchangeDownloader$b a -> a
+    android.content.Context b -> b
+    long c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    boolean f -> f
+    java.lang.String g -> g
+    void run() -> run
+    boolean b() -> b
+    boolean c() -> c
+    java.lang.String a() -> a
+    boolean a(java.lang.String) -> a
+    boolean b(java.lang.String) -> b
+com.admogo.AdMogoLayout -> com.admogo.AdMogoLayout:
+    java.lang.String ADMOGO_KEY -> ADMOGO_KEY
+    java.lang.String ADMOGO_ADTYPE -> ADMOGO_ADTYPE
+    java.lang.ref.WeakReference activityReference -> activityReference
+    android.os.Handler handler -> handler
+    java.util.concurrent.ScheduledExecutorService scheduler -> scheduler
+    java.util.concurrent.ScheduledExecutorService twice_schedulera -> twice_schedulera
+    java.lang.String keyAdMogo -> keyAdMogo
+    com.admogo.obj.Extra extra -> extra
+    com.admogo.obj.Custom custom -> custom
+    com.admogo.obj.Mogo mogo -> mogo
+    java.lang.ref.WeakReference superViewReference -> superViewReference
+    com.admogo.obj.Ration activeRation -> activeRation
+    com.admogo.obj.Ration nextRation -> nextRation
+    java.lang.String clickview -> clickview
+    java.lang.String clickflag -> clickflag
+    int index -> index
+    int totalAdType -> totalAdType
+    com.admogo.AdMogoListener adMogoListener -> adMogoListener
+    com.admogo.AdMogoManager adMogoManager -> adMogoManager
+    boolean hasWindow -> hasWindow
+    boolean isScheduled -> isScheduled
+    int maxWidth -> maxWidth
+    int ad_type -> ad_type
+    java.lang.String countryCode -> countryCode
+    int width -> width
+    int height -> height
+    int maxHeight -> maxHeight
+    boolean isEmulator -> isEmulator
+    void setMaxWidth(int) -> setMaxWidth
+    void setMaxHeight(int) -> setMaxHeight
+    java.lang.String getAdMogoKey(android.content.Context) -> getAdMogoKey
+    void init(android.app.Activity,java.lang.String,int) -> init
+    void onMeasure(int,int) -> onMeasure
+    void onWindowVisibilityChanged(int) -> onWindowVisibilityChanged
+    void rotateAd() -> rotateAd
+    void handleAd() -> handleAd
+    void rotateThreadedNow() -> rotateThreadedNow
+    void rotateThreadedDelayed() -> rotateThreadedDelayed
+    void pushSubView(android.view.ViewGroup,int) -> pushSubView
+    void rollover() -> rollover
+    void countRequest() -> countRequest
+    void countImpression() -> countImpression
+    void countClick() -> countClick
+    void countFailed() -> countFailed
+    boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
+    void setAdMogoListener(com.admogo.AdMogoListener) -> setAdMogoListener
+    void CountImpAd() -> CountImpAd
+    int getAdType() -> getAdType
+    boolean access$0(com.admogo.AdMogoLayout) -> access$0
+    void access$1(com.admogo.AdMogoLayout,boolean) -> access$1
+    void access$2(boolean) -> access$2
+    boolean access$3() -> access$3
+    void access$4(java.lang.String) -> access$4
+    java.lang.String access$5() -> access$5
+    void access$6(com.admogo.AdMogoLayout) -> access$6
+    void access$7(com.admogo.AdMogoLayout) -> access$7
+    void access$8(int) -> access$8
+    int access$9() -> access$9
+com.admogo.AdMogoLayout$HandleAdRunnable -> com.admogo.e:
+    java.lang.ref.WeakReference adMogoLayoutReference -> a
+    void run() -> run
+com.admogo.AdMogoLayout$InitRunnable -> com.admogo.c:
+    java.lang.ref.WeakReference adMogoLayoutReference -> a
+    java.lang.String keyAdMogo -> b
+    int ad_Type -> c
+    void run() -> run
+com.admogo.AdMogoLayout$PingUrlRunnable -> com.admogo.a:
+    java.lang.String url -> a
+    void run() -> run
+com.admogo.AdMogoLayout$RotateAdRunnable -> com.admogo.d:
+    java.lang.ref.WeakReference adMogoLayoutReference -> a
+    void run() -> run
+com.admogo.AdMogoLayout$ViewAdRunnable -> com.admogo.AdMogoLayout$ViewAdRunnable:
+    java.lang.ref.WeakReference adMogoLayoutReference -> adMogoLayoutReference
+    android.view.ViewGroup nextView -> nextView
+    void run() -> run
+com.admogo.AdMogoLayout$getAdByCountryCode -> com.admogo.b:
+    com.admogo.AdMogoLayout adMogoLayout -> a
+    android.content.Context activity -> b
+    java.lang.String simCode -> c
+    void run() -> run
+com.admogo.AdMogoListener -> com.admogo.AdMogoListener:
+    void onReceiveAd() -> onReceiveAd
+    void onFailedReceiveAd() -> onFailedReceiveAd
+    void onClickAd() -> onClickAd
+com.admogo.AdMogoManager -> com.admogo.AdMogoManager:
+    java.lang.String keyAdMogo -> keyAdMogo
+    com.admogo.obj.Extra extra -> extra
+    java.util.List rationsList -> rationsList
+    double totalWeight -> totalWeight
+    java.lang.ref.WeakReference contextReference -> contextReference
+    long configExpireTimeout -> configExpireTimeout
+    java.util.Iterator rollovers -> rollovers
+    java.lang.String deviceIDHash -> deviceIDHash
+    java.lang.String networkType -> networkType
+    java.lang.String os -> os
+    java.lang.String deviceName -> deviceName
+    int ad_type -> ad_type
+    java.lang.String gender -> gender
+    java.lang.String birthday -> birthday
+    java.lang.String keywords -> keywords
+    com.admogo.obj.Ration lastRation -> lastRation
+    android.location.Location location -> location
+    java.lang.String getCountryCode -> getCountryCode
+    java.lang.String screenSize -> screenSize
+    int adType -> adType
+    java.lang.String getRation -> getRation
+    java.lang.String PREFS_STRING_TIMESTAMP -> PREFS_STRING_TIMESTAMP
+    java.lang.String PREFS_STRING_CONFIG -> PREFS_STRING_CONFIG
+    void setConfigExpireTimeout(long) -> setConfigExpireTimeout
+    com.admogo.obj.Extra getExtra() -> getExtra
+    com.admogo.obj.Ration getRation() -> getRation
+    com.admogo.obj.Ration getRollover() -> getRollover
+    void resetRollover() -> resetRollover
+    com.admogo.obj.Custom getCustom(java.lang.String) -> getCustom
+    com.admogo.obj.Mogo getMogo(java.lang.String) -> getMogo
+    void fetchConfig() -> fetchConfig
+    java.lang.String convertStreamToString(java.io.InputStream) -> convertStreamToString
+    void parseConfigurationString(java.lang.String) -> parseConfigurationString
+    void parseExtraJson(org.json.JSONObject) -> parseExtraJson
+    void parseRationsJson(org.json.JSONArray) -> parseRationsJson
+    com.admogo.obj.Custom parseCustomJsonString(java.lang.String) -> parseCustomJsonString
+    com.admogo.obj.Mogo parseMogoJsonString(java.lang.String) -> parseMogoJsonString
+    android.graphics.drawable.Drawable fetchImage(java.lang.String) -> fetchImage
+    void setLocation(java.lang.String) -> setLocation
+    android.location.Location getLocation() -> getLocation
+com.admogo.AdMogoTargeting -> com.admogo.AdMogoTargeting:
+    java.lang.String appName -> appName
+    java.lang.String companyName -> companyName
+    boolean testMode -> testMode
+    com.admogo.AdMogoTargeting$Gender gender -> gender
+    java.util.GregorianCalendar birthDate -> birthDate
+    java.lang.String birthday -> birthday
+    java.lang.String postalCode -> postalCode
+    java.lang.String keywords -> keywords
+    java.util.Set keywordSet -> keywordSet
+    java.lang.String telephoneNumber -> telephoneNumber
+    int adchinaDefaultImage -> adchinaDefaultImage
+    java.lang.String countryCode -> countryCode
+    int PHONE_BANNER_AD -> PHONE_BANNER_AD
+    int APad_BIG_BANNER_AD -> APad_BIG_BANNER_AD
+    int APad_SMALL_BANNER_AD -> APad_SMALL_BANNER_AD
+    int APad_RECTANGLE_AD -> APad_RECTANGLE_AD
+    int APad_SKYSCRAPER_AD -> APad_SKYSCRAPER_AD
+    int FULLSCREEN_AD -> FULLSCREEN_AD
+    int VIDEO_AD -> VIDEO_AD
+    void resetData() -> resetData
+    java.lang.String getAppName() -> getAppName
+    void setAppName(java.lang.String) -> setAppName
+    java.lang.String getCompanyName() -> getCompanyName
+    void setCompanyName(java.lang.String) -> setCompanyName
+    boolean getTestMode() -> getTestMode
+    void setTestMode(boolean) -> setTestMode
+    com.admogo.AdMogoTargeting$Gender getGender() -> getGender
+    void setGender(com.admogo.AdMogoTargeting$Gender) -> setGender
+    int getAge() -> getAge
+    java.lang.String getBirthday() -> getBirthday
+    void setBirthday(java.lang.String) -> setBirthday
+    java.util.GregorianCalendar getBirthDate() -> getBirthDate
+    void setBirthDate(java.util.GregorianCalendar) -> setBirthDate
+    void setAge(int) -> setAge
+    java.lang.String getPostalCode() -> getPostalCode
+    void setPostalCode(java.lang.String) -> setPostalCode
+    java.util.Set getKeywordSet() -> getKeywordSet
+    java.lang.String getKeywords() -> getKeywords
+    void setKeywordSet(java.util.Set) -> setKeywordSet
+    void setKeywords(java.lang.String) -> setKeywords
+    void addKeyword(java.lang.String) -> addKeyword
+    java.lang.String getTelephoneNumber() -> getTelephoneNumber
+    void setTelephoneNumber(java.lang.String) -> setTelephoneNumber
+    int getAdchinaDefaultImage() -> getAdchinaDefaultImage
+    void setAdchinaDefaultImage(int) -> setAdchinaDefaultImage
+com.admogo.AdMogoTargeting$Gender -> com.admogo.AdMogoTargeting$Gender:
+    com.admogo.AdMogoTargeting$Gender UNKNOWN -> UNKNOWN
+    com.admogo.AdMogoTargeting$Gender MALE -> MALE
+    com.admogo.AdMogoTargeting$Gender FEMALE -> FEMALE
+    com.admogo.AdMogoTargeting$Gender[] ENUM$VALUES -> ENUM$VALUES
+    com.admogo.AdMogoTargeting$Gender[] values() -> values
+    com.admogo.AdMogoTargeting$Gender valueOf(java.lang.String) -> valueOf
+com.admogo.adapters.AdChinaAdapter -> com.admogo.adapters.AdChinaAdapter:
+    com.adchina.android.ads.views.AdView adView -> adView
+    com.admogo.AdMogoLayout adMogoLayout -> adMogoLayout
+    android.app.Activity activity -> activity
+    com.adchina.android.ads.views.FullScreenAdView mFullScreenImageView -> mFullScreenImageView
+    com.adchina.android.ads.AdEngine engine -> engine
+    boolean flag -> flag
+    void handle() -> handle
+    boolean OnRecvSms(com.adchina.android.ads.views.AdView,java.lang.String) -> OnRecvSms
+    void onFailedToPlayVideoAd() -> onFailedToPlayVideoAd
+    void onFailedToReceiveAd(com.adchina.android.ads.views.AdView) -> onFailedToReceiveAd
+    void onFailedToReceiveFullScreenAd(com.adchina.android.ads.views.FullScreenAdView) -> onFailedToReceiveFullScreenAd
+    void onFailedToReceiveVideoAd() -> onFailedToReceiveVideoAd
+    void onFailedToRefreshAd(com.adchina.android.ads.views.AdView) -> onFailedToRefreshAd
+    void onPlayVideoAd() -> onPlayVideoAd
+    void onReceiveAd(com.adchina.android.ads.views.AdView) -> onReceiveAd
+    void onReceiveFullScreenAd(com.adchina.android.ads.views.FullScreenAdView) -> onReceiveFullScreenAd
+    void onRefreshAd(com.adchina.android.ads.views.AdView) -> onRefreshAd
+    void finish() -> finish
+    com.admogo.AdMogoLayout access$0(com.admogo.adapters.AdChinaAdapter) -> access$0
+com.admogo.adapters.AdChinaAdapter$1 -> com.admogo.adapters.b:
+    com.admogo.adapters.AdChinaAdapter this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.admogo.adapters.AdMogoAdapter -> com.admogo.adapters.AdMogoAdapter:
+    java.lang.ref.WeakReference adMogoLayoutReference -> adMogoLayoutReference
+    com.admogo.obj.Ration ration -> ration
+    com.admogo.adapters.AdMogoAdapter adapter -> adapter
+    com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration) -> getAdapter
+    com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration) -> getNetworkAdapter
+    com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration) -> unknownAdNetwork
+    void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration) -> handle
+    void handle() -> handle
+    void finish() -> finish
+com.admogo.adapters.AdTouchAdapter -> com.admogo.adapters.AdTouchAdapter:
+    com.energysource.szj.embeded.AdView adView -> adView
+    android.app.Activity activity -> activity
+    void handle() -> handle
+    void failedReceiveAd(com.energysource.szj.embeded.AdView) -> failedReceiveAd
+    void receiveAd(com.energysource.szj.embeded.AdView) -> receiveAd
+    void finish() -> finish
+com.admogo.adapters.AdwoAdapter -> com.admogo.adapters.AdwoAdapter:
+    com.adwo.adsdk.AdwoAdView adView -> adView
+    android.app.Activity activity -> activity
+    com.admogo.AdMogoLayout adMogoLayout -> adMogoLayout
+    void handle() -> handle
+    void onFailedToReceiveAd(com.adwo.adsdk.AdwoAdView) -> onFailedToReceiveAd
+    void onFailedToReceiveRefreshedAd(com.adwo.adsdk.AdwoAdView) -> onFailedToReceiveRefreshedAd
+    void onReceiveAd(com.adwo.adsdk.AdwoAdView) -> onReceiveAd
+    void finish() -> finish
+com.admogo.adapters.AppMediaAdapter -> com.admogo.adapters.AppMediaAdapter:
+    cn.appmedia.ad.BannerAdView bannerAdView -> bannerAdView
+    android.app.Activity activity -> activity
+    void handle() -> handle
+    void finish() -> finish
+    void onReceiveAdFailure(cn.appmedia.ad.BannerAdView) -> onReceiveAdFailure
+    void onReceiveAdSuccess(cn.appmedia.ad.BannerAdView) -> onReceiveAdSuccess
+com.admogo.adapters.CaseeAdapter -> com.admogo.adapters.CaseeAdapter:
+    com.casee.adsdk.CaseeAdView adView -> adView
+    android.app.Activity activity -> activity
+    void handle() -> handle
+    void onFailedToReceiveAd(com.casee.adsdk.CaseeAdView) -> onFailedToReceiveAd
+    void onFailedToReceiveRefreshAd(com.casee.adsdk.CaseeAdView) -> onFailedToReceiveRefreshAd
+    void onReceiveAd(com.casee.adsdk.CaseeAdView) -> onReceiveAd
+    void onReceiveRefreshAd(com.casee.adsdk.CaseeAdView) -> onReceiveRefreshAd
+    void finish() -> finish
+com.admogo.adapters.CustomAdapter -> com.admogo.adapters.CustomAdapter:
+    void handle() -> handle
+    void displayCustom() -> displayCustom
+    void finish() -> finish
+com.admogo.adapters.CustomAdapter$DisplayCustomRunnable -> com.admogo.adapters.e:
+    com.admogo.adapters.CustomAdapter customAdapter -> a
+    void run() -> run
+com.admogo.adapters.CustomAdapter$FetchCustomRunnable -> com.admogo.adapters.a:
+    com.admogo.adapters.CustomAdapter customAdapter -> a
+    void run() -> run
+com.admogo.adapters.DomobAdapter -> com.admogo.adapters.DomobAdapter:
+    cn.domob.android.ads.DomobAdView adView -> adView
+    android.app.Activity activity -> activity
+    void handle() -> handle
+    void onFailedToReceiveFreshAd(cn.domob.android.ads.DomobAdView) -> onFailedToReceiveFreshAd
+    void onReceivedFreshAd(cn.domob.android.ads.DomobAdView) -> onReceivedFreshAd
+    void finish() -> finish
+com.admogo.adapters.GoogleAdMobAdsAdapter -> com.admogo.adapters.GoogleAdMobAdsAdapter:
+    com.google.ads.AdView adView -> adView
+    android.app.Activity activity -> activity
+    int[] $SWITCH_TABLE$com$admogo$AdMogoTargeting$Gender -> $SWITCH_TABLE$com$admogo$AdMogoTargeting$Gender
+    java.lang.String birthdayForAdMogoTargeting() -> birthdayForAdMogoTargeting
+    com.google.ads.AdRequest$Gender genderForAdMogoTargeting() -> genderForAdMogoTargeting
+    void handle() -> handle
+    void log(java.lang.String) -> log
+    com.google.ads.AdRequest requestForAdMogoLayout(com.admogo.AdMogoLayout) -> requestForAdMogoLayout
+    void onDismissScreen(com.google.ads.Ad) -> onDismissScreen
+    void onFailedToReceiveAd(com.google.ads.Ad,com.google.ads.AdRequest$ErrorCode) -> onFailedToReceiveAd
+    void onLeaveApplication(com.google.ads.Ad) -> onLeaveApplication
+    void onPresentScreen(com.google.ads.Ad) -> onPresentScreen
+    void onReceiveAd(com.google.ads.Ad) -> onReceiveAd
+    void finish() -> finish
+    int[] $SWITCH_TABLE$com$admogo$AdMogoTargeting$Gender() -> $SWITCH_TABLE$com$admogo$AdMogoTargeting$Gender
+com.admogo.adapters.GreystripeAdapter -> com.admogo.adapters.GreystripeAdapter:
+    com.greystripe.android.sdk.BannerView adView -> adView
+    android.app.Activity activity -> activity
+    com.greystripe.android.sdk.GSSDK sdk -> sdk
+    void handle() -> handle
+    void onFailedToReceiveAd(com.greystripe.android.sdk.BannerView) -> onFailedToReceiveAd
+    void onReceivedAd(com.greystripe.android.sdk.BannerView) -> onReceivedAd
+    void finish() -> finish
+com.admogo.adapters.InMobiAdapter -> com.admogo.adapters.InMobiAdapter:
+    com.admogo.obj.Extra extra -> extra
+    android.app.Activity activity -> activity
+    int adUnit -> adUnit
+    void handle() -> handle
+    void adRequestCompleted(com.inmobi.androidsdk.impl.InMobiAdView) -> adRequestCompleted
+    void adRequestFailed(com.inmobi.androidsdk.impl.InMobiAdView) -> adRequestFailed
+    int age() -> age
+    java.lang.String areaCode() -> areaCode
+    android.location.Location currentLocation() -> currentLocation
+    java.util.Date dateOfBirth() -> dateOfBirth
+    com.inmobi.androidsdk.EducationType education() -> education
+    com.inmobi.androidsdk.EthnicityType ethnicity() -> ethnicity
+    com.inmobi.androidsdk.GenderType gender() -> gender
+    int income() -> income
+    java.lang.String interests() -> interests
+    boolean isLocationInquiryAllowed() -> isLocationInquiryAllowed
+    boolean isPublisherProvidingLocation() -> isPublisherProvidingLocation
+    java.lang.String keywords() -> keywords
+    java.lang.String postalCode() -> postalCode
+    java.lang.String searchString() -> searchString
+    java.lang.String siteId() -> siteId
+    boolean testMode() -> testMode
+    void finish() -> finish
+com.admogo.adapters.LSenseAdapter -> com.admogo.adapters.LSenseAdapter:
+    com.l.adlib_android.AdView adView -> adView
+    android.app.Activity activity -> activity
+    com.l.adlib_android.AdViewFull adViewFull -> adViewFull
+    void handle() -> handle
+    void OnAcceptAd(int) -> OnAcceptAd
+    void OnConnectFailed(java.lang.String) -> OnConnectFailed
+    void finish() -> finish
+com.admogo.adapters.MdotMAdapter -> com.admogo.adapters.MdotMAdapter:
+    android.app.Activity activity -> activity
+    void handle() -> handle
+    void adRequestCompletedSuccessfully(com.mdotm.android.ads.MdotMView) -> adRequestCompletedSuccessfully
+    void adRequestFailed(com.mdotm.android.ads.MdotMView) -> adRequestFailed
+    void finish() -> finish
+com.admogo.adapters.MillennialAdapter -> com.admogo.adapters.MillennialAdapter:
+    com.millennialmedia.android.MMAdView adView -> adView
+    com.millennialmedia.android.MMAdView interAdView -> interAdView
+    android.app.Activity activity -> activity
+    java.util.Hashtable map -> map
+    void handle() -> handle
+    void showInterstitial(android.app.Activity,java.lang.String) -> showInterstitial
+    void MMAdClickedToNewBrowser(com.millennialmedia.android.MMAdView) -> MMAdClickedToNewBrowser
+    void MMAdClickedToOverlay(com.millennialmedia.android.MMAdView) -> MMAdClickedToOverlay
+    void MMAdFailed(com.millennialmedia.android.MMAdView) -> MMAdFailed
+    void MMAdOverlayLaunched(com.millennialmedia.android.MMAdView) -> MMAdOverlayLaunched
+    void MMAdRequestIsCaching(com.millennialmedia.android.MMAdView) -> MMAdRequestIsCaching
+    void MMAdReturned(com.millennialmedia.android.MMAdView) -> MMAdReturned
+    void finish() -> finish
+com.admogo.adapters.MogoAdapter -> com.admogo.adapters.MogoAdapter:
+    void handle() -> handle
+    void displayMogo() -> displayMogo
+    void finish() -> finish
+com.admogo.adapters.MogoAdapter$DisplayMogoRunnable -> com.admogo.adapters.c:
+    com.admogo.adapters.MogoAdapter mogoAdapter -> a
+    void run() -> run
+com.admogo.adapters.MogoAdapter$FetchMogoRunnable -> com.admogo.adapters.d:
+    com.admogo.adapters.MogoAdapter mogoAdapter -> a
+    void run() -> run
+com.admogo.adapters.SmaatoAdapter -> com.admogo.adapters.SmaatoAdapter:
+    com.smaato.SOMA.SOMABanner adView -> adView
+    android.app.Activity activity -> activity
+    int PublisherId -> PublisherId
+    int AdSpaceId -> AdSpaceId
+    boolean flag -> flag
+    void handle() -> handle
+    void onFailedToReceiveAd(com.smaato.SOMA.AdDownloader,com.smaato.SOMA.ErrorCode) -> onFailedToReceiveAd
+    void onReceiveAd(com.smaato.SOMA.AdDownloader,com.smaato.SOMA.SOMAReceivedBanner) -> onReceiveAd
+    void finish() -> finish
+com.admogo.adapters.SmartMADAdapter -> com.admogo.adapters.SmartMADAdapter:
+    com.madhouse.android.ads.AdView adView -> adView
+    java.lang.String AppID -> AppID
+    java.lang.String AdSpaceID -> AdSpaceID
+    android.app.Activity activity -> activity
+    void handle() -> handle
+    void onAdStatus(int) -> onAdStatus
+    void onAdEvent(com.madhouse.android.ads.AdView,int) -> onAdEvent
+    void finish() -> finish
+com.admogo.adapters.VponCNAdapter -> com.admogo.adapters.VponCNAdapter:
+    android.app.Activity activity -> activity
+    void handle() -> handle
+    void onRecevieAd(com.vpon.adon.android.AdView) -> onRecevieAd
+    void onFailedToRecevieAd(com.vpon.adon.android.AdView) -> onFailedToRecevieAd
+    void finish() -> finish
+com.admogo.adapters.WiyunAdapter -> com.admogo.adapters.WiyunAdapter:
+    com.wiyun.ad.AdView adView -> adView
+    android.app.Activity activity -> activity
+    void handle() -> handle
+    void onAdClicked() -> onAdClicked
+    void onAdLoadFailed() -> onAdLoadFailed
+    void onAdLoaded() -> onAdLoaded
+    void onExitButtonClicked() -> onExitButtonClicked
+    void finish() -> finish
+com.admogo.adapters.WoobooAdapter -> com.admogo.adapters.WoobooAdapter:
+    com.wooboo.adlib_android.WoobooAdView adView -> adView
+    android.app.Activity activity -> activity
+    void handle() -> handle
+    void onFailedToReceiveAd(java.lang.Object) -> onFailedToReceiveAd
+    void onReceiveAd(java.lang.Object) -> onReceiveAd
+    void finish() -> finish
+com.admogo.adapters.YoumiAdapter -> com.admogo.adapters.YoumiAdapter:
+    net.youmi.android.AdView adView -> adView
+    android.app.Activity activity -> activity
+    java.lang.String AppID -> AppID
+    java.lang.String AppSecret -> AppSecret
+    void handle() -> handle
+    void finish() -> finish
+    void onConnectFailed(net.youmi.android.AdView) -> onConnectFailed
+    void onReceiveAd(net.youmi.android.AdView) -> onReceiveAd
+com.admogo.adapters.ZestAdzAdapter -> com.admogo.adapters.ZestAdzAdapter:
+    android.app.Activity activity -> activity
+    void handle() -> handle
+    void AdReturned(com.zestadz.android.ZestADZAdView) -> AdReturned
+    void AdFailed(com.zestadz.android.ZestADZAdView) -> AdFailed
+    void finish() -> finish
+com.admogo.obj.Custom -> com.admogo.obj.Custom:
+    int type -> type
+    java.lang.String link -> link
+    android.graphics.drawable.Drawable image -> image
+    java.lang.String imageLink -> imageLink
+    java.lang.String description -> description
+com.admogo.obj.Extra -> com.admogo.obj.Extra:
+    int fgRed -> fgRed
+    int fgGreen -> fgGreen
+    int fgBlue -> fgBlue
+    int fgAlpha -> fgAlpha
+    int bgRed -> bgRed
+    int bgGreen -> bgGreen
+    int bgBlue -> bgBlue
+    int bgAlpha -> bgAlpha
+    int cycleTime -> cycleTime
+    int locationOn -> locationOn
+    int transition -> transition
+com.admogo.obj.Mogo -> com.admogo.obj.Mogo:
+    int type -> type
+    java.lang.String link -> link
+    android.graphics.drawable.Drawable image -> image
+    java.lang.String imageLink -> imageLink
+    java.lang.String description -> description
+com.admogo.obj.Ration -> com.admogo.obj.Ration:
+    java.lang.String nid -> nid
+    int type -> type
+    java.lang.String name -> name
+    double weight -> weight
+    java.lang.String key -> key
+    java.lang.String key2 -> key2
+    int priority -> priority
+    int compareTo(com.admogo.obj.Ration) -> compareTo
+    int compareTo(java.lang.Object) -> compareTo
+com.admogo.util.AdMogoUtil -> com.admogo.util.AdMogoUtil:
+    java.lang.String urlConfig -> urlConfig
+    java.lang.String urlImpression -> urlImpression
+    java.lang.String urlClick -> urlClick
+    java.lang.String urlCustom -> urlCustom
+    java.lang.String urlMogo -> urlMogo
+    java.lang.String urlRequest -> urlRequest
+    java.lang.String urlNull -> urlNull
+    int VERSION -> VERSION
+    java.lang.String ADMOGO -> ADMOGO
+    int NETWORK_TYPE_ADMOB -> NETWORK_TYPE_ADMOB
+    int NETWORK_TYPE_JUMPTAP -> NETWORK_TYPE_JUMPTAP
+    int NETWORK_TYPE_VIDEOEGG -> NETWORK_TYPE_VIDEOEGG
+    int NETWORK_TYPE_MEDIALETS -> NETWORK_TYPE_MEDIALETS
+    int NETWORK_TYPE_LIVERAIL -> NETWORK_TYPE_LIVERAIL
+    int NETWORK_TYPE_MILLENNIAL -> NETWORK_TYPE_MILLENNIAL
+    int NETWORK_TYPE_GREYSTRIP -> NETWORK_TYPE_GREYSTRIP
+    int NETWORK_TYPE_QUATTRO -> NETWORK_TYPE_QUATTRO
+    int NETWORK_TYPE_CUSTOM -> NETWORK_TYPE_CUSTOM
+    int NETWORK_TYPE_ADMOGO -> NETWORK_TYPE_ADMOGO
+    int NETWORK_TYPE_MOBCLIX -> NETWORK_TYPE_MOBCLIX
+    int NETWORK_TYPE_MDOTM -> NETWORK_TYPE_MDOTM
+    int NETWORK_TYPE_4THSCREEN -> NETWORK_TYPE_4THSCREEN
+    int NETWORK_TYPE_ADSENSE -> NETWORK_TYPE_ADSENSE
+    int NETWORK_TYPE_DOUBLECLICK -> NETWORK_TYPE_DOUBLECLICK
+    int NETWORK_TYPE_GENERIC -> NETWORK_TYPE_GENERIC
+    int NETWORK_TYPE_EVENT -> NETWORK_TYPE_EVENT
+    int NETWORK_TYPE_INMOBI -> NETWORK_TYPE_INMOBI
+    int NETWORK_TYPE_ZESTADZ -> NETWORK_TYPE_ZESTADZ
+    int NETWORK_TYPE_ADCHINA -> NETWORK_TYPE_ADCHINA
+    int NETWORK_TYPE_WIYUN -> NETWORK_TYPE_WIYUN
+    int NETWORK_TYPE_WOOBOO -> NETWORK_TYPE_WOOBOO
+    int NETWORK_TYPE_YOUMI -> NETWORK_TYPE_YOUMI
+    int NETWORK_TYPE_CASEE -> NETWORK_TYPE_CASEE
+    int NETWORK_TYPE_SMART -> NETWORK_TYPE_SMART
+    int NETWORK_TYPE_MOGO -> NETWORK_TYPE_MOGO
+    int NETWORK_TYPE_ADTOUCH -> NETWORK_TYPE_ADTOUCH
+    int NETWORK_TYPE_DOMOB -> NETWORK_TYPE_DOMOB
+    int NETWORK_TYPE_VPON -> NETWORK_TYPE_VPON
+    int NETWORK_TYPE_AIRAD -> NETWORK_TYPE_AIRAD
+    int NETWORK_TYPE_ADWO -> NETWORK_TYPE_ADWO
+    int NETWORK_TYPE_LSENSE -> NETWORK_TYPE_LSENSE
+    int NETWORK_TYPE_SMAATO -> NETWORK_TYPE_SMAATO
+    int NETWORK_TYPE_APPMEDIA -> NETWORK_TYPE_APPMEDIA
+    int CUSTOM_TYPE_BANNER -> CUSTOM_TYPE_BANNER
+    int CUSTOM_TYPE_ICON -> CUSTOM_TYPE_ICON
+    int MOGO_TYPE_BANNER -> MOGO_TYPE_BANNER
+    int MOGO_TYPE_ICON -> MOGO_TYPE_ICON
+    double density -> density
+    java.lang.String convertToHex(byte[]) -> convertToHex
+    double getDensity(android.app.Activity) -> getDensity
+    int convertToScreenPixels(int,double) -> convertToScreenPixels
+    double convertToScreenPixels(double,double) -> convertToScreenPixels
+com.appswhere.core.Account -> com.appswhere.core.Account:
+    java.lang.String username -> username
+    java.lang.String getUsername() -> getUsername
+    void setUsername(java.lang.String) -> setUsername
+com.appswhere.core.CmdAPPE -> com.appswhere.core.CmdAPPE:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdAbstractListing -> com.appswhere.core.CmdAbstractListing:
+    com.appswhere.core.MyLog staticLog -> staticLog
+    java.lang.String makeLsString(java.io.File) -> makeLsString
+    java.lang.String listDirectory(java.lang.StringBuilder,java.io.File) -> listDirectory
+    java.lang.String sendListing(java.lang.String) -> sendListing
+com.appswhere.core.CmdAbstractStore -> com.appswhere.core.CmdAbstractStore:
+    java.lang.String message -> message
+    void doStorOrAppe(java.lang.String,boolean) -> doStorOrAppe
+com.appswhere.core.CmdCDUP -> com.appswhere.core.CmdCDUP:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdCWD -> com.appswhere.core.CmdCWD:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdDELE -> com.appswhere.core.CmdDELE:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdFEAT -> com.appswhere.core.CmdFEAT:
+    java.lang.String message -> message
+    void run() -> run
+com.appswhere.core.CmdLIST -> com.appswhere.core.CmdLIST:
+    long MS_IN_SIX_MONTHS -> MS_IN_SIX_MONTHS
+    java.lang.String input -> input
+    void run() -> run
+    java.lang.String makeLsString(java.io.File) -> makeLsString
+com.appswhere.core.CmdMKD -> com.appswhere.core.CmdMKD:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdMap -> com.appswhere.core.CmdMap:
+    java.lang.Class cmdClass -> cmdClass
+    java.lang.String name -> name
+    java.lang.Class getCommand() -> getCommand
+    void setCommand(java.lang.Class) -> setCommand
+    java.lang.String getName() -> getName
+    void setName(java.lang.String) -> setName
+com.appswhere.core.CmdNLST -> com.appswhere.core.CmdNLST:
+    long MS_IN_SIX_MONTHS -> MS_IN_SIX_MONTHS
+    java.lang.String input -> input
+    void run() -> run
+    java.lang.String makeLsString(java.io.File) -> makeLsString
+com.appswhere.core.CmdNOOP -> com.appswhere.core.CmdNOOP:
+    java.lang.String message -> message
+    void run() -> run
+com.appswhere.core.CmdOPTS -> com.appswhere.core.CmdOPTS:
+    java.lang.String message -> message
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdPASS -> com.appswhere.core.CmdPASS:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdPASV -> com.appswhere.core.CmdPASV:
+    void run() -> run
+com.appswhere.core.CmdPORT -> com.appswhere.core.CmdPORT:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdPWD -> com.appswhere.core.CmdPWD:
+    void run() -> run
+com.appswhere.core.CmdQUIT -> com.appswhere.core.CmdQUIT:
+    java.lang.String message -> message
+    void run() -> run
+com.appswhere.core.CmdRETR -> com.appswhere.core.CmdRETR:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdRMD -> com.appswhere.core.CmdRMD:
+    java.lang.String message -> message
+    java.lang.String input -> input
+    void run() -> run
+    boolean recursiveDelete(java.io.File) -> recursiveDelete
+com.appswhere.core.CmdRNFR -> com.appswhere.core.CmdRNFR:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdRNTO -> com.appswhere.core.CmdRNTO:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdSIZE -> com.appswhere.core.CmdSIZE:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdSTOR -> com.appswhere.core.CmdSTOR:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdSYST -> com.appswhere.core.CmdSYST:
+    java.lang.String response -> response
+    void run() -> run
+com.appswhere.core.CmdTYPE -> com.appswhere.core.CmdTYPE:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.CmdTemplate -> com.appswhere.core.CmdTemplate:
+    java.lang.String message -> message
+    void run() -> run
+com.appswhere.core.CmdUSER -> com.appswhere.core.CmdUSER:
+    java.lang.String input -> input
+    void run() -> run
+com.appswhere.core.ConfigureActivity -> com.appswhere.core.ConfigureActivity:
+    java.lang.String USERNAME -> USERNAME
+    java.lang.String PASSWORD -> PASSWORD
+    java.lang.String PORTNUM -> PORTNUM
+    java.lang.String CHROOTDIR -> CHROOTDIR
+    java.lang.String ACCEPT_WIFI -> ACCEPT_WIFI
+    java.lang.String ACCEPT_NET -> ACCEPT_NET
+    java.lang.String STAY_AWAKE -> STAY_AWAKE
+com.appswhere.core.DataSocketFactory -> com.appswhere.core.DataSocketFactory:
+    com.appswhere.core.MyLog myLog -> myLog
+    boolean onPort(java.net.InetAddress,int) -> onPort
+    int onPasv() -> onPasv
+    java.net.Socket onTransfer() -> onTransfer
+    java.net.InetAddress getPasvIp() -> getPasvIp
+    void reportTraffic(long) -> reportTraffic
+com.appswhere.core.Defaults -> com.appswhere.core.Defaults:
+    int inputBufferSize -> inputBufferSize
+    int dataChunkSize -> dataChunkSize
+    int sessionMonitorScrollBack -> sessionMonitorScrollBack
+    int serverLogScrollBack -> serverLogScrollBack
+    int uiLogLevel -> uiLogLevel
+    int consoleLogLevel -> consoleLogLevel
+    java.lang.String settingsName -> settingsName
+    int portNumber -> portNumber
+    int tcpConnectionBacklog -> tcpConnectionBacklog
+    java.lang.String chrootDir -> chrootDir
+    boolean acceptWifi -> acceptWifi
+    boolean acceptNet -> acceptNet
+    boolean stayAwake -> stayAwake
+    int REMOTE_PROXY_PORT -> REMOTE_PROXY_PORT
+    java.lang.String STRING_ENCODING -> STRING_ENCODING
+    int SO_TIMEOUT_MS -> SO_TIMEOUT_MS
+    java.lang.String SESSION_ENCODING -> SESSION_ENCODING
+    boolean release -> release
+    boolean do_mediascanner_notify -> do_mediascanner_notify
+    int settingsMode -> settingsMode
+    int getPortNumber() -> getPortNumber
+    void setPortNumber(int) -> setPortNumber
+    java.lang.String getSettingsName() -> getSettingsName
+    void setSettingsName(java.lang.String) -> setSettingsName
+    int getSettingsMode() -> getSettingsMode
+    void setSettingsMode(int) -> setSettingsMode
+    void setServerLogScrollBack(int) -> setServerLogScrollBack
+    int getUiLogLevel() -> getUiLogLevel
+    void setUiLogLevel(int) -> setUiLogLevel
+    int getInputBufferSize() -> getInputBufferSize
+    void setInputBufferSize(int) -> setInputBufferSize
+    int getDataChunkSize() -> getDataChunkSize
+    void setDataChunkSize(int) -> setDataChunkSize
+    int getSessionMonitorScrollBack() -> getSessionMonitorScrollBack
+    void setSessionMonitorScrollBack(int) -> setSessionMonitorScrollBack
+    int getServerLogScrollBack() -> getServerLogScrollBack
+    void setLogScrollBack(int) -> setLogScrollBack
+    int getConsoleLogLevel() -> getConsoleLogLevel
+    void setConsoleLogLevel(int) -> setConsoleLogLevel
+com.appswhere.core.FTPServerService -> com.appswhere.core.FTPServerService:
+    java.lang.Thread serverThread -> serverThread
+    boolean shouldExit -> shouldExit
+    com.appswhere.core.MyLog myLog -> myLog
+    com.appswhere.core.MyLog staticLog -> staticLog
+    int BACKLOG -> BACKLOG
+    int MAX_SESSIONS -> MAX_SESSIONS
+    java.lang.String WAKE_LOCK_TAG -> WAKE_LOCK_TAG
+    java.net.ServerSocket listenSocket -> listenSocket
+    android.net.wifi.WifiManager$WifiLock wifiLock -> wifiLock
+    java.util.List sessionMonitor -> sessionMonitor
+    java.util.List serverLog -> serverLog
+    int uiLogLevel -> uiLogLevel
+    int WAKE_INTERVAL_MS -> WAKE_INTERVAL_MS
+    int port -> port
+    boolean acceptWifi -> acceptWifi
+    boolean acceptNet -> acceptNet
+    boolean fullWake -> fullWake
+    com.appswhere.core.TcpListener wifiListener -> wifiListener
+    com.appswhere.core.ProxyConnector proxyConnector -> proxyConnector
+    java.util.List sessionThreads -> sessionThreads
+    android.content.SharedPreferences settings -> settings
+    android.app.NotificationManager notificationMgr -> notificationMgr
+    android.os.PowerManager$WakeLock wakeLock -> wakeLock
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    void onStart(android.content.Intent,int) -> onStart
+    boolean isRunning() -> isRunning
+    void onDestroy() -> onDestroy
+    boolean loadSettings() -> loadSettings
+    void setupListener() -> setupListener
+    void setupNotification() -> setupNotification
+    void clearNotification() -> clearNotification
+    void run() -> run
+    void terminateAllSessions() -> terminateAllSessions
+    void cleanupAndStopService() -> cleanupAndStopService
+    void takeWakeLock() -> takeWakeLock
+    void releaseWakeLock() -> releaseWakeLock
+    void takeWifiLock() -> takeWifiLock
+    void releaseWifiLock() -> releaseWifiLock
+    void errorShutdown() -> errorShutdown
+    java.net.InetAddress getWifiIp() -> getWifiIp
+    boolean isWifiEnabled() -> isWifiEnabled
+    java.util.List getSessionMonitorContents() -> getSessionMonitorContents
+    java.util.List getServerLogContents() -> getServerLogContents
+    void log(int,java.lang.String) -> log
+    void updateClients() -> updateClients
+    void writeMonitor(boolean,java.lang.String) -> writeMonitor
+    int getPort() -> getPort
+    void setPort(int) -> setPort
+    void registerSessionThread(com.appswhere.core.SessionThread) -> registerSessionThread
+    com.appswhere.core.ProxyConnector getProxyConnector() -> getProxyConnector
+    android.content.SharedPreferences getSettings() -> getSettings
+com.appswhere.core.FtpCmd -> com.appswhere.core.FtpCmd:
+    com.appswhere.core.SessionThread sessionThread -> sessionThread
+    com.appswhere.core.MyLog myLog -> myLog
+    com.appswhere.core.MyLog staticLog -> staticLog
+    com.appswhere.core.CmdMap[] cmdClasses -> cmdClasses
+    void run() -> run
+    void dispatchCommand(com.appswhere.core.SessionThread,java.lang.String) -> dispatchCommand
+    java.lang.String getParameter(java.lang.String,boolean) -> getParameter
+    java.lang.String getParameter(java.lang.String) -> getParameter
+    java.io.File inputPathToChrootedFile(java.io.File,java.lang.String) -> inputPathToChrootedFile
+    boolean violatesChroot(java.io.File) -> violatesChroot
+com.appswhere.core.Globals -> com.appswhere.core.Globals:
+    android.content.Context context -> context
+    java.lang.String lastError -> lastError
+    java.io.File chrootDir -> chrootDir
+    com.appswhere.core.ProxyConnector proxyConnector -> proxyConnector
+    java.lang.String username -> username
+    com.appswhere.core.ProxyConnector getProxyConnector() -> getProxyConnector
+    void setProxyConnector(com.appswhere.core.ProxyConnector) -> setProxyConnector
+    java.io.File getChrootDir() -> getChrootDir
+    void setChrootDir(java.io.File) -> setChrootDir
+    java.lang.String getLastError() -> getLastError
+    void setLastError(java.lang.String) -> setLastError
+    android.content.Context getContext() -> getContext
+    void setContext(android.content.Context) -> setContext
+    java.lang.String getUsername() -> getUsername
+    void setUsername(java.lang.String) -> setUsername
+com.appswhere.core.MyLog -> com.appswhere.core.MyLog:
+    java.lang.String tag -> tag
+    void l(int,java.lang.String,boolean) -> l
+    void l(int,java.lang.String) -> l
+    void e(java.lang.String) -> e
+    void w(java.lang.String) -> w
+    void i(java.lang.String) -> i
+    void d(java.lang.String) -> d
+com.appswhere.core.NormalDataSocketFactory -> com.appswhere.core.NormalDataSocketFactory:
+    java.net.ServerSocket server -> server
+    java.net.InetAddress remoteAddr -> remoteAddr
+    int remotePort -> remotePort
+    boolean isPasvMode -> isPasvMode
+    void clearState() -> clearState
+    int onPasv() -> onPasv
+    boolean onPort(java.net.InetAddress,int) -> onPort
+    java.net.Socket onTransfer() -> onTransfer
+    int getPortNumber() -> getPortNumber
+    java.net.InetAddress getPasvIp() -> getPasvIp
+    void reportTraffic(long) -> reportTraffic
+com.appswhere.core.ProxyConnector -> com.appswhere.core.ProxyConnector:
+    int IN_BUF_SIZE -> IN_BUF_SIZE
+    java.lang.String ENCODING -> ENCODING
+    int RESPONSE_WAIT_MS -> RESPONSE_WAIT_MS
+    int QUEUE_WAIT_MS -> QUEUE_WAIT_MS
+    long UPDATE_USAGE_BYTES -> UPDATE_USAGE_BYTES
+    java.lang.String PREFERRED_SERVER -> PREFERRED_SERVER
+    int CONNECT_TIMEOUT -> CONNECT_TIMEOUT
+    com.appswhere.core.FTPServerService ftpServerService -> ftpServerService
+    com.appswhere.core.MyLog myLog -> myLog
+    org.json.JSONObject response -> response
+    java.lang.Thread responseWaiter -> responseWaiter
+    java.util.Queue queuedRequestThreads -> queuedRequestThreads
+    java.net.Socket commandSocket -> commandSocket
+    java.io.OutputStream out -> out
+    java.lang.String hostname -> hostname
+    java.io.InputStream inputStream -> inputStream
+    long proxyUsage -> proxyUsage
+    com.appswhere.core.ProxyConnector$State proxyState -> proxyState
+    java.lang.String prefix -> prefix
+    java.lang.String proxyMessage -> proxyMessage
+    java.lang.String USAGE_PREFS_NAME -> USAGE_PREFS_NAME
+    void run() -> run
+    void preferServer(java.lang.String) -> preferServer
+    java.lang.String[] getProxyList() -> getProxyList
+    boolean checkAndPrintJsonError(org.json.JSONObject) -> checkAndPrintJsonError
+    void incomingCommand(org.json.JSONObject) -> incomingCommand
+    void startControlSession(int) -> startControlSession
+    java.net.Socket newAuthedSocket(java.lang.String,int) -> newAuthedSocket
+    void quit() -> quit
+    org.json.JSONObject sendCmdSocketRequest(org.json.JSONObject) -> sendCmdSocketRequest
+    org.json.JSONObject sendRequest(java.io.InputStream,java.io.OutputStream,org.json.JSONObject) -> sendRequest
+    org.json.JSONObject sendRequest(java.net.Socket,org.json.JSONObject) -> sendRequest
+    com.appswhere.core.ProxyDataSocketInfo pasvListen() -> pasvListen
+    java.net.Socket dataPortConnect(java.net.InetAddress,int) -> dataPortConnect
+    boolean pasvAccept(java.net.Socket) -> pasvAccept
+    java.net.InetAddress getProxyIp() -> getProxyIp
+    org.json.JSONObject makeJsonRequest(java.lang.String) -> makeJsonRequest
+    void persistProxyUsage() -> persistProxyUsage
+    long getPersistedProxyUsage() -> getPersistedProxyUsage
+    long getProxyUsage() -> getProxyUsage
+    void incrementProxyUsage(long) -> incrementProxyUsage
+    com.appswhere.core.ProxyConnector$State getProxyState() -> getProxyState
+    void setProxyState(com.appswhere.core.ProxyConnector$State) -> setProxyState
+    java.lang.String getProxyMessage() -> getProxyMessage
+com.appswhere.core.ProxyConnector$State -> com.appswhere.core.ProxyConnector$State:
+    com.appswhere.core.ProxyConnector$State CONNECTING -> CONNECTING
+    com.appswhere.core.ProxyConnector$State CONNECTED -> CONNECTED
+    com.appswhere.core.ProxyConnector$State FAILED -> FAILED
+    com.appswhere.core.ProxyConnector$State UNREACHABLE -> UNREACHABLE
+    com.appswhere.core.ProxyConnector$State DISCONNECTED -> DISCONNECTED
+    com.appswhere.core.ProxyConnector$State[] ENUM$VALUES -> ENUM$VALUES
+    com.appswhere.core.ProxyConnector$State[] values() -> values
+    com.appswhere.core.ProxyConnector$State valueOf(java.lang.String) -> valueOf
+com.appswhere.core.ProxyDataSocketFactory -> com.appswhere.core.ProxyDataSocketFactory:
+    java.net.Socket socket -> socket
+    int proxyListenPort -> proxyListenPort
+    com.appswhere.core.ProxyConnector proxyConnector -> proxyConnector
+    java.net.InetAddress clientAddress -> clientAddress
+    int clientPort -> clientPort
+    void clearState() -> clearState
+    java.net.InetAddress getPasvIp() -> getPasvIp
+    int onPasv() -> onPasv
+    boolean onPort(java.net.InetAddress,int) -> onPort
+    java.net.Socket onTransfer() -> onTransfer
+    void reportTraffic(long) -> reportTraffic
+com.appswhere.core.ProxyDataSocketInfo -> com.appswhere.core.ProxyDataSocketInfo:
+    int remotePublicPort -> remotePublicPort
+    java.net.Socket socket -> socket
+    java.net.Socket getSocket() -> getSocket
+    void setSocket(java.net.Socket) -> setSocket
+    int getRemotePublicPort() -> getRemotePublicPort
+    void setRemotePublicPort(int) -> setRemotePublicPort
+com.appswhere.core.QuotaStats -> com.appswhere.core.QuotaStats:
+    int quota -> quota
+    int used -> used
+    int getQuota() -> getQuota
+    int getUsed() -> getUsed
+com.appswhere.core.SessionThread -> com.appswhere.core.SessionThread:
+    boolean shouldExit -> shouldExit
+    java.net.Socket cmdSocket -> cmdSocket
+    com.appswhere.core.MyLog myLog -> myLog
+    java.nio.ByteBuffer buffer -> buffer
+    boolean pasvMode -> pasvMode
+    boolean binaryMode -> binaryMode
+    com.appswhere.core.Account account -> account
+    boolean authenticated -> authenticated
+    java.io.File workingDir -> workingDir
+    java.net.Socket dataSocket -> dataSocket
+    java.io.File renameFrom -> renameFrom
+    com.appswhere.core.DataSocketFactory dataSocketFactory -> dataSocketFactory
+    java.io.OutputStream dataOutputStream -> dataOutputStream
+    boolean sendWelcomeBanner -> sendWelcomeBanner
+    java.lang.String encoding -> encoding
+    com.appswhere.core.SessionThread$Source source -> source
+    int authFails -> authFails
+    int MAX_AUTH_FAILS -> MAX_AUTH_FAILS
+    int numNulls -> numNulls
+    boolean sendViaDataSocket(java.lang.String) -> sendViaDataSocket
+    boolean sendViaDataSocket(byte[],int) -> sendViaDataSocket
+    boolean sendViaDataSocket(byte[],int,int) -> sendViaDataSocket
+    int receiveFromDataSocket(byte[]) -> receiveFromDataSocket
+    int onPasv() -> onPasv
+    boolean onPort(java.net.InetAddress,int) -> onPort
+    java.net.InetAddress getDataSocketPasvIp() -> getDataSocketPasvIp
+    boolean startUsingDataSocket() -> startUsingDataSocket
+    void quit() -> quit
+    void closeDataSocket() -> closeDataSocket
+    java.net.InetAddress getLocalAddress() -> getLocalAddress
+    void run() -> run
+    boolean compareLen(byte[],byte[],int) -> compareLen
+    void closeSocket() -> closeSocket
+    void writeBytes(byte[]) -> writeBytes
+    void writeString(java.lang.String) -> writeString
+    java.net.Socket getSocket() -> getSocket
+    com.appswhere.core.Account getAccount() -> getAccount
+    void setAccount(com.appswhere.core.Account) -> setAccount
+    boolean isPasvMode() -> isPasvMode
+    java.nio.ByteBuffer stringToBB(java.lang.String) -> stringToBB
+    boolean isBinaryMode() -> isBinaryMode
+    void setBinaryMode(boolean) -> setBinaryMode
+    boolean isAuthenticated() -> isAuthenticated
+    void authAttempt(boolean) -> authAttempt
+    java.io.File getWorkingDir() -> getWorkingDir
+    void setWorkingDir(java.io.File) -> setWorkingDir
+    java.net.Socket getDataSocket() -> getDataSocket
+    void setDataSocket(java.net.Socket) -> setDataSocket
+    java.io.File getRenameFrom() -> getRenameFrom
+    void setRenameFrom(java.io.File) -> setRenameFrom
+    java.lang.String getEncoding() -> getEncoding
+    void setEncoding(java.lang.String) -> setEncoding
+com.appswhere.core.SessionThread$Source -> com.appswhere.core.SessionThread$Source:
+    com.appswhere.core.SessionThread$Source LOCAL -> LOCAL
+    com.appswhere.core.SessionThread$Source PROXY -> PROXY
+    com.appswhere.core.SessionThread$Source[] ENUM$VALUES -> ENUM$VALUES
+    com.appswhere.core.SessionThread$Source[] values() -> values
+    com.appswhere.core.SessionThread$Source valueOf(java.lang.String) -> valueOf
+com.appswhere.core.Settings -> com.appswhere.core.Settings:
+    int inputBufferSize -> inputBufferSize
+    boolean allowOverwrite -> allowOverwrite
+    int dataChunkSize -> dataChunkSize
+    int sessionMonitorScrollBack -> sessionMonitorScrollBack
+    int serverLogScrollBack -> serverLogScrollBack
+    int uiLogLevel -> uiLogLevel
+    int getUiLogLevel() -> getUiLogLevel
+    void setUiLogLevel(int) -> setUiLogLevel
+    int getInputBufferSize() -> getInputBufferSize
+    void setInputBufferSize(int) -> setInputBufferSize
+    boolean isAllowOverwrite() -> isAllowOverwrite
+    void setAllowOverwrite(boolean) -> setAllowOverwrite
+    int getDataChunkSize() -> getDataChunkSize
+    void setDataChunkSize(int) -> setDataChunkSize
+    int getSessionMonitorScrollBack() -> getSessionMonitorScrollBack
+    void setSessionMonitorScrollBack(int) -> setSessionMonitorScrollBack
+    int getServerLogScrollBack() -> getServerLogScrollBack
+    void setLogScrollBack(int) -> setLogScrollBack
+com.appswhere.core.TcpListener -> com.appswhere.core.TcpListener:
+    java.net.ServerSocket listenSocket -> listenSocket
+    com.appswhere.core.FTPServerService ftpServerService -> ftpServerService
+    com.appswhere.core.MyLog myLog -> myLog
+    void quit() -> quit
+    void run() -> run
+com.appswhere.core.UiUpdater -> com.appswhere.core.UiUpdater:
+    com.appswhere.core.MyLog myLog -> myLog
+    java.util.List clients -> clients
+    void registerClient(android.os.Handler) -> registerClient
+    void unregisterClient(android.os.Handler) -> unregisterClient
+    void updateClients() -> updateClients
+com.appswhere.core.Util -> com.appswhere.core.Util:
+    com.appswhere.core.MyLog myLog -> myLog
+    java.lang.String getAndroidId() -> getAndroidId
+    java.lang.String getVersion() -> getVersion
+    byte byteOfInt(int,int) -> byteOfInt
+    java.lang.String ipToString(int,java.lang.String) -> ipToString
+    java.net.InetAddress intToInet(int) -> intToInet
+    java.lang.String ipToString(int) -> ipToString
+    byte[] jsonToByteArray(org.json.JSONObject) -> jsonToByteArray
+    org.json.JSONObject byteArrayToJson(byte[]) -> byteArrayToJson
+    void newFileNotify(java.lang.String) -> newFileNotify
+    void deletedFileNotify(java.lang.String) -> deletedFileNotify
+    java.lang.String[] concatStrArrays(java.lang.String[],java.lang.String[]) -> concatStrArrays
+    void sleepIgnoreInterupt(long) -> sleepIgnoreInterupt
+com.appswhere.core.Util$MediaScannerNotifier -> com.appswhere.core.a:
+    android.media.MediaScannerConnection connection -> a
+    java.lang.String path -> b
+    void onMediaScannerConnected() -> onMediaScannerConnected
+    void onScanCompleted(java.lang.String,android.net.Uri) -> onScanCompleted
+com.appswhere.virtualusb.FtpControlActivity -> com.appswhere.virtualusb.FtpControlActivity:
+    android.widget.Button startButton -> b
+    android.widget.Button stopButton -> c
+    android.widget.Button helpButton -> d
+    android.widget.TextView ipText -> e
+    android.widget.TextView ftpstate -> f
+    android.app.AlertDialog accessDialog -> g
+    int FEED_BACK_MENU -> h
+    int SET_MENU -> i
+    int EXIT_MENU -> j
+    boolean[] mulFlags -> a
+    long backTime -> k
+    android.view.View$OnClickListener startButtonListener -> l
+    android.view.View$OnClickListener stopButtonListener -> m
+    android.view.View$OnClickListener helpButtonListener -> n
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    android.app.Dialog onCreateDialog(int) -> onCreateDialog
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onStop() -> onStop
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void access$0(com.appswhere.virtualusb.FtpControlActivity) -> a
+    android.widget.Button access$1(com.appswhere.virtualusb.FtpControlActivity) -> b
+    android.widget.Button access$2(com.appswhere.virtualusb.FtpControlActivity) -> c
+    android.widget.TextView access$3(com.appswhere.virtualusb.FtpControlActivity) -> d
+    android.widget.TextView access$4(com.appswhere.virtualusb.FtpControlActivity) -> e
+    android.app.AlertDialog access$5(com.appswhere.virtualusb.FtpControlActivity) -> f
+com.appswhere.virtualusb.FtpControlActivity$1 -> com.appswhere.virtualusb.i:
+    com.appswhere.virtualusb.FtpControlActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appswhere.virtualusb.FtpControlActivity$2 -> com.appswhere.virtualusb.g:
+    com.appswhere.virtualusb.FtpControlActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appswhere.virtualusb.FtpControlActivity$3 -> com.appswhere.virtualusb.h:
+    com.appswhere.virtualusb.FtpControlActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appswhere.virtualusb.FtpControlActivity$4 -> com.appswhere.virtualusb.e:
+    com.appswhere.virtualusb.FtpControlActivity this$0 -> a
+    void onFeedbackReturned(int) -> onFeedbackReturned
+com.appswhere.virtualusb.FtpControlActivity$5 -> com.appswhere.virtualusb.f:
+    com.appswhere.virtualusb.FtpControlActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.appswhere.virtualusb.FtpControlActivity$6 -> com.appswhere.virtualusb.c:
+    com.appswhere.virtualusb.FtpControlActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.appswhere.virtualusb.FtpControlActivity$7 -> com.appswhere.virtualusb.d:
+    com.appswhere.virtualusb.FtpControlActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appswhere.virtualusb.FtpControlActivity$8 -> com.appswhere.virtualusb.a:
+    com.appswhere.virtualusb.FtpControlActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int,boolean) -> onClick
+com.appswhere.virtualusb.FtpControlActivity$9 -> com.appswhere.virtualusb.b:
+    com.appswhere.virtualusb.FtpControlActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.appswhere.virtualusb.HelpActivity -> com.appswhere.virtualusb.HelpActivity:
+    android.webkit.WebView wv -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onPause() -> onPause
+com.appswhere.virtualusb.R -> com.appswhere.virtualusb.R:
+com.appswhere.virtualusb.R$array -> com.appswhere.virtualusb.R$array:
+    int setting_item -> setting_item
+com.appswhere.virtualusb.R$attr -> com.appswhere.virtualusb.R$attr:
+com.appswhere.virtualusb.R$drawable -> com.appswhere.virtualusb.R$drawable:
+    int bg -> bg
+    int help -> help
+    int logo -> logo
+    int start -> start
+    int stop -> stop
+    int wifi -> wifi
+com.appswhere.virtualusb.R$id -> com.appswhere.virtualusb.R$id:
+    int ScrollView -> ScrollView
+    int adLayouts -> adLayouts
+    int admogo_layout -> admogo_layout
+    int app -> app
+    int appIcon -> appIcon
+    int btn_help -> btn_help
+    int btn_lay -> btn_lay
+    int btn_start -> btn_start
+    int btn_stop -> btn_stop
+    int chk -> chk
+    int description -> description
+    int feedback_age_spinner -> feedback_age_spinner
+    int feedback_content -> feedback_content
+    int feedback_gender_spinner -> feedback_gender_spinner
+    int feedback_submit -> feedback_submit
+    int feedback_title -> feedback_title
+    int feedback_umeng_title -> feedback_umeng_title
+    int im_bg -> im_bg
+    int lay -> lay
+    int lay2 -> lay2
+    int lay3 -> lay3
+    int notification -> notification
+    int progress_bar -> progress_bar
+    int progress_text -> progress_text
+    int pwd -> pwd
+    int rootId -> rootId
+    int text_ftpstate -> text_ftpstate
+    int text_visitftp -> text_visitftp
+    int title -> title
+    int umengBannerTop -> umengBannerTop
+    int username -> username
+    int widgetpass -> widgetpass
+    int widgetusername -> widgetusername
+    int wvHelp -> wvHelp
+com.appswhere.virtualusb.R$layout -> com.appswhere.virtualusb.R$layout:
+    int main -> main
+    int setting -> setting
+    int umeng_download_notification -> umeng_download_notification
+    int umeng_feedback -> umeng_feedback
+    int wv_help -> wv_help
+com.appswhere.virtualusb.R$raw -> com.appswhere.virtualusb.R$raw:
+    int help -> help
+com.appswhere.virtualusb.R$string -> com.appswhere.virtualusb.R$string:
+    int cancel -> cancel
+    int error_wifi -> error_wifi
+    int exit -> exit
+    int exit_notice -> exit_notice
+    int feedback -> feedback
+    int feedback_failed -> feedback_failed
+    int feedback_no_connect -> feedback_no_connect
+    int feedback_ok -> feedback_ok
+    int ftp_name -> ftp_name
+    int login_error -> login_error
+    int notice -> notice
+    int ok -> ok
+    int server_start -> server_start
+    int server_stop -> server_stop
+    int set_access -> set_access
+    int setting -> setting
+    int start_server -> start_server
+    int stay_awake_notice -> stay_awake_notice
+    int stop_server -> stop_server
+    int storage_warning -> storage_warning
+com.madhouse.android.ads.$ -> com.madhouse.android.ads.av:
+    android.content.Context _ -> a
+    void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long) -> onDownloadStart
+com.madhouse.android.ads.$$ -> com.madhouse.android.ads.f:
+    com.madhouse.android.ads._____ _ -> a
+    void onClick(android.view.View) -> onClick
+com.madhouse.android.ads.$$$ -> com.madhouse.android.ads.c:
+    com.madhouse.android.ads._____ _ -> a
+    void onClick(android.view.View) -> onClick
+com.madhouse.android.ads.$$$$ -> com.madhouse.android.ads.u:
+    com.madhouse.android.ads._____ _ -> a
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+com.madhouse.android.ads.$$$$$ -> com.madhouse.android.ads.ao:
+    com.madhouse.android.ads.aaaaa _ -> a
+    com.madhouse.android.ads.aaaaa __ -> b
+    com.madhouse.android.ads.aaaaa ____ -> d
+    com.madhouse.android.ads.aaaaa _____ -> e
+    com.madhouse.android.ads._____ ___ -> c
+    void _() -> a
+com.madhouse.android.ads.AdListener -> com.madhouse.android.ads.AdListener:
+    void onAdStatus(int) -> onAdStatus
+    void onAdEvent(com.madhouse.android.ads.AdView,int) -> onAdEvent
+com.madhouse.android.ads.AdManager -> com.madhouse.android.ads.AdManager:
+    java.lang.String USER_GENDER_MALE -> USER_GENDER_MALE
+    java.lang.String USER_GENDER_FEMALE -> USER_GENDER_FEMALE
+    java.lang.String _ -> _
+    java.lang.String __ -> __
+    java.lang.String ___ -> ___
+    boolean ____ -> ____
+    void setApplicationId(android.content.Context,java.lang.String) -> setApplicationId
+    java.lang.String _() -> _
+    void setUserAge(java.lang.String) -> setUserAge
+    java.lang.String __() -> __
+    void setUserGender(java.lang.String) -> setUserGender
+    java.lang.String ___() -> ___
+    void setEmbedBrowserEnable(boolean) -> setEmbedBrowserEnable
+    boolean ____() -> ____
+com.madhouse.android.ads.AdView -> com.madhouse.android.ads.AdView:
+    int EVENT_NEWAD -> EVENT_NEWAD
+    int EVENT_FINISHAD -> EVENT_FINISHAD
+    int EVENT_EXISTAD -> EVENT_EXISTAD
+    int EVENT_INVALIDAD -> EVENT_INVALIDAD
+    int EVENT_INCOMPLETE_PERMISSION -> EVENT_INCOMPLETE_PERMISSION
+    int RETRUNCODE_OK -> RETRUNCODE_OK
+    int RETRUNCODE_NOADS -> RETRUNCODE_NOADS
+    int RETRUNCODE_INVALIDADPOSITION -> RETRUNCODE_INVALIDADPOSITION
+    int RETRUNCODE_INVALIDUSER -> RETRUNCODE_INVALIDUSER
+    int RETRUNCODE_INVALIDUSERAGENT -> RETRUNCODE_INVALIDUSERAGENT
+    int RETRUNCODE_INVALIDIP -> RETRUNCODE_INVALIDIP
+    int RETRUNCODE_TRYAGAIN -> RETRUNCODE_TRYAGAIN
+    int RETRUNCODE_SERVERBUSY -> RETRUNCODE_SERVERBUSY
+    int RETRUNCODE_SERVERERROR -> RETRUNCODE_SERVERERROR
+    int AD_MEASURE_176 -> AD_MEASURE_176
+    int AD_MEASURE_240 -> AD_MEASURE_240
+    int AD_MEASURE_320 -> AD_MEASURE_320
+    int AD_MEASURE_360 -> AD_MEASURE_360
+    int AD_MEASURE_480 -> AD_MEASURE_480
+    int AD_MEASURE_640 -> AD_MEASURE_640
+    int BANNER_ANIMATION_TYPE_NONE -> BANNER_ANIMATION_TYPE_NONE
+    int BANNER_ANIMATION_TYPE_RANDOM -> BANNER_ANIMATION_TYPE_RANDOM
+    int BANNER_ANIMATION_TYPE_FADEINOUT -> BANNER_ANIMATION_TYPE_FADEINOUT
+    int BANNER_ANIMATION_TYPE_FLIPFROMLEFT -> BANNER_ANIMATION_TYPE_FLIPFROMLEFT
+    int BANNER_ANIMATION_TYPE_FLIPFROMRIGHT -> BANNER_ANIMATION_TYPE_FLIPFROMRIGHT
+    int BANNER_ANIMATION_TYPE_CURLUP -> BANNER_ANIMATION_TYPE_CURLUP
+    int BANNER_ANIMATION_TYPE_CURLDOWN -> BANNER_ANIMATION_TYPE_CURLDOWN
+    int BANNER_ANIMATION_TYPE_SLIDEFROMLEFT -> BANNER_ANIMATION_TYPE_SLIDEFROMLEFT
+    int BANNER_ANIMATION_TYPE_SLIDEFROMRIGHT -> BANNER_ANIMATION_TYPE_SLIDEFROMRIGHT
+    float[][] _ -> _
+    float[][] __ -> __
+    java.lang.String ___ -> ___
+    java.lang.String ____ -> ____
+    java.lang.String _____ -> _____
+    java.lang.String $ -> $
+    int $$ -> $$
+    int $$$ -> $$$
+    int $$$$ -> $$$$
+    boolean $$$$$ -> $$$$$
+    boolean a -> a
+    boolean aa -> aa
+    com.madhouse.android.ads.AdView aaa -> aaa
+    com.madhouse.android.ads.____ aaaa -> aaaa
+    com.madhouse.android.ads.eeee aaaaa -> aaaaa
+    com.madhouse.android.ads.AdListener b -> b
+    android.content.Context bb -> bb
+    java.util.Timer bbb -> bbb
+    android.os.Handler bbbb -> bbbb
+    boolean bbbbb -> bbbbb
+    void _(android.content.Context,android.util.AttributeSet,java.lang.String,int,int,boolean) -> _
+    void _(android.content.Context) -> _
+    void _(int) -> _
+    void _(boolean) -> _
+    void _() -> _
+    void __(int) -> __
+    void setAnimationType(int) -> setAnimationType
+    void setListener(com.madhouse.android.ads.AdListener) -> setListener
+    int getVisibility() -> getVisibility
+    void setVisibility(int) -> setVisibility
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+    void onWindowVisibilityChanged(int) -> onWindowVisibilityChanged
+    void onAttachedToWindow() -> onAttachedToWindow
+    void onDetachedFromWindow() -> onDetachedFromWindow
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    com.madhouse.android.ads.____ _(com.madhouse.android.ads.AdView) -> _
+    int __(com.madhouse.android.ads.AdView) -> __
+    float[][] __() -> __
+    void _(com.madhouse.android.ads.AdView,com.madhouse.android.ads.____) -> _
+    java.lang.String ___(com.madhouse.android.ads.AdView) -> ___
+    java.lang.String ____(com.madhouse.android.ads.AdView) -> ____
+    int _____(com.madhouse.android.ads.AdView) -> _____
+    int $(com.madhouse.android.ads.AdView) -> $
+    java.lang.String $$(com.madhouse.android.ads.AdView) -> $$
+    java.lang.String $$$(com.madhouse.android.ads.AdView) -> $$$
+    void _(com.madhouse.android.ads.AdView,java.lang.String) -> _
+    com.madhouse.android.ads.AdListener $$$$(com.madhouse.android.ads.AdView) -> $$$$
+    com.madhouse.android.ads.AdView $$$$$(com.madhouse.android.ads.AdView) -> $$$$$
+    void _(com.madhouse.android.ads.AdView,boolean) -> _
+    int a(com.madhouse.android.ads.AdView) -> a
+    android.content.Context aa(com.madhouse.android.ads.AdView) -> aa
+    android.os.Handler ___() -> ___
+    void __(com.madhouse.android.ads.AdView,com.madhouse.android.ads.____) -> __
+    void _(com.madhouse.android.ads.AdView,int) -> _
+    void ___(com.madhouse.android.ads.AdView,com.madhouse.android.ads.____) -> ___
+    void _(com.madhouse.android.ads.AdView,com.madhouse.android.ads.____,int,int) -> _
+    void ____(com.madhouse.android.ads.AdView,com.madhouse.android.ads.____) -> ____
+    void _(com.madhouse.android.ads.AdView,com.madhouse.android.ads.eeee) -> _
+    void __(com.madhouse.android.ads.AdView,com.madhouse.android.ads.eeee) -> __
+    void __(com.madhouse.android.ads.AdView,java.lang.String) -> __
+    boolean aaa(com.madhouse.android.ads.AdView) -> aaa
+    void _(com.madhouse.android.ads.AdView,android.content.Context) -> _
+com.madhouse.android.ads.Resource_en_US -> com.madhouse.android.ads.Resource_en_US:
+    java.lang.Object[][] _ -> _
+    java.lang.Object[][] getContents() -> getContents
+com.madhouse.android.ads.Resource_zh_CN -> com.madhouse.android.ads.Resource_zh_CN:
+    java.lang.Object[][] _ -> _
+    java.lang.Object[][] getContents() -> getContents
+com.madhouse.android.ads.Resource_zh_TW -> com.madhouse.android.ads.Resource_zh_TW:
+    java.lang.Object[][] _ -> _
+    java.lang.Object[][] getContents() -> getContents
+com.madhouse.android.ads._ -> com.madhouse.android.ads.w:
+    com.madhouse.android.ads.m _(android.content.Context) -> a
+    int __(android.content.Context) -> b
+com.madhouse.android.ads.__ -> com.madhouse.android.ads.a:
+    java.lang.String _ -> a
+    java.lang.String __ -> b
+    java.lang.String ___ -> c
+    java.lang.String ____ -> d
+    java.lang.String _____ -> e
+    java.lang.String $ -> f
+    java.lang.String $$ -> g
+    java.lang.String $$$ -> h
+    boolean $$$$ -> i
+com.madhouse.android.ads.___ -> com.madhouse.android.ads.aa:
+    float _ -> a
+    float __ -> b
+    float ___ -> c
+    float ____ -> d
+    float _____ -> e
+    boolean $ -> f
+    int $$ -> g
+    android.graphics.Camera $$$ -> h
+    void initialize(int,int,int,int) -> initialize
+    void applyTransformation(float,android.view.animation.Transformation) -> applyTransformation
+com.madhouse.android.ads.____ -> com.madhouse.android.ads.n:
+    int _ -> a
+    int __ -> b
+    byte[] ____ -> d
+    java.lang.String _____ -> e
+    java.lang.String $ -> f
+    android.graphics.Rect $$ -> g
+    android.graphics.Bitmap $$$ -> h
+    android.graphics.Paint $$$$ -> i
+    android.graphics.Matrix $$$$$ -> j
+    com.madhouse.android.ads.__ ___ -> c
+    android.content.Context a -> k
+    void _() -> a
+    void __() -> b
+    void onMeasure(int,int) -> onMeasure
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    boolean dispatchTrackballEvent(android.view.MotionEvent) -> dispatchTrackballEvent
+    void setPressed(boolean) -> setPressed
+    void onDraw(android.graphics.Canvas) -> onDraw
+com.madhouse.android.ads._____ -> com.madhouse.android.ads.as:
+    int $ -> f
+    int $$ -> g
+    boolean _ -> a
+    com.madhouse.android.ads.b __ -> b
+    com.madhouse.android.ads.bbbb ___ -> c
+    com.madhouse.android.ads.$$$$$ ____ -> d
+    com.madhouse.android.ads.dd _____ -> e
+    boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
+    void _(java.lang.String) -> a
+    void _() -> a
+com.madhouse.android.ads.a -> com.madhouse.android.ads.x:
+    com.madhouse.android.ads.$$$$$ _ -> a
+    void onClick(android.view.View) -> onClick
+com.madhouse.android.ads.aa -> com.madhouse.android.ads.ax:
+    com.madhouse.android.ads.$$$$$ _ -> a
+    void onClick(android.view.View) -> onClick
+com.madhouse.android.ads.aaa -> com.madhouse.android.ads.au:
+    com.madhouse.android.ads.$$$$$ _ -> a
+    void onClick(android.view.View) -> onClick
+com.madhouse.android.ads.aaaa -> com.madhouse.android.ads.an:
+    com.madhouse.android.ads.$$$$$ _ -> a
+    void onClick(android.view.View) -> onClick
+com.madhouse.android.ads.aaaaa -> com.madhouse.android.ads.q:
+    android.graphics.Bitmap _ -> a
+    boolean __ -> b
+    int ___ -> c
+    android.view.View$OnClickListener ____ -> d
+    void _(boolean) -> a
+    void setOnClickListener(android.view.View$OnClickListener) -> setOnClickListener
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    void _() -> a
+    void __() -> b
+    void onFocusChanged(boolean,int,android.graphics.Rect) -> onFocusChanged
+    boolean dispatchTrackballEvent(android.view.MotionEvent) -> dispatchTrackballEvent
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+com.madhouse.android.ads.b -> com.madhouse.android.ads.z:
+    com.madhouse.android.ads.bb _ -> a
+    android.widget.ImageView __ -> b
+    android.widget.ProgressBar ___ -> c
+com.madhouse.android.ads.bb -> com.madhouse.android.ads.az:
+    float _ -> a
+    float __ -> b
+    float ___ -> c
+    float ____ -> d
+    float _____ -> e
+    float $ -> f
+    boolean $$ -> g
+    java.lang.String $$$ -> h
+    android.graphics.Paint $$$$ -> i
+    void setTextColor(int) -> setTextColor
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    void _() -> a
+    void __() -> b
+    void onFocusChanged(boolean,int,android.graphics.Rect) -> onFocusChanged
+    boolean dispatchTrackballEvent(android.view.MotionEvent) -> dispatchTrackballEvent
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    java.lang.CharSequence getText() -> getText
+com.madhouse.android.ads.bbb -> com.madhouse.android.ads.i:
+    com.madhouse.android.ads.bb _ -> a
+    void run() -> run
+com.madhouse.android.ads.bbbb -> com.madhouse.android.ads.e:
+    android.content.Context _ -> a
+    com.madhouse.android.ads._____ __ -> b
+    void _() -> a
+com.madhouse.android.ads.bbbbb -> com.madhouse.android.ads.p:
+    com.madhouse.android.ads.bbbb _ -> a
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+    void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+com.madhouse.android.ads.c -> com.madhouse.android.ads.y:
+    com.madhouse.android.ads.bbbb _ -> a
+    boolean onJsAlert(android.webkit.WebView,java.lang.String,java.lang.String,android.webkit.JsResult) -> onJsAlert
+    boolean onJsConfirm(android.webkit.WebView,java.lang.String,java.lang.String,android.webkit.JsResult) -> onJsConfirm
+    boolean onJsPrompt(android.webkit.WebView,java.lang.String,java.lang.String,java.lang.String,android.webkit.JsPromptResult) -> onJsPrompt
+    void onReceivedIcon(android.webkit.WebView,android.graphics.Bitmap) -> onReceivedIcon
+    void onReceivedTitle(android.webkit.WebView,java.lang.String) -> onReceivedTitle
+com.madhouse.android.ads.cc -> com.madhouse.android.ads.ah:
+    android.webkit.JsResult _ -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.madhouse.android.ads.ccc -> com.madhouse.android.ads.j:
+    android.webkit.JsResult _ -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.madhouse.android.ads.cccc -> com.madhouse.android.ads.h:
+    android.webkit.JsResult _ -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.madhouse.android.ads.ccccc -> com.madhouse.android.ads.b:
+    android.webkit.JsPromptResult _ -> a
+    android.widget.EditText __ -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.madhouse.android.ads.d -> com.madhouse.android.ads.ac:
+    android.webkit.JsPromptResult _ -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.madhouse.android.ads.dd -> com.madhouse.android.ads.ar:
+    com.madhouse.android.ads.dddd _ -> a
+    com.madhouse.android.ads.dddd __ -> b
+    android.os.Handler ___ -> c
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void _() -> a
+    void _(int,float,float) -> a
+    boolean hasFocus() -> hasFocus
+com.madhouse.android.ads.ddd -> com.madhouse.android.ads.at:
+    com.madhouse.android.ads.dd _ -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.madhouse.android.ads.dddd -> com.madhouse.android.ads.aq:
+    android.os.Handler _ -> a
+    android.view.View$OnClickListener __ -> b
+    com.madhouse.android.ads.dd _____ -> e
+    java.lang.Runnable $ -> f
+    long ___ -> c
+    boolean ____ -> d
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void _() -> a
+    void setOnClickListener(android.view.View$OnClickListener) -> setOnClickListener
+    boolean onLongClick(android.view.View) -> onLongClick
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    void setEnabled(boolean) -> setEnabled
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean dispatchUnhandledMove(android.view.View,int) -> dispatchUnhandledMove
+com.madhouse.android.ads.ddddd -> com.madhouse.android.ads.aw:
+    com.madhouse.android.ads.dddd _ -> a
+    void run() -> run
+com.madhouse.android.ads.e -> com.madhouse.android.ads.ab:
+    java.util.List _ -> a
+    java.util.List _(android.content.Context) -> a
+    java.util.List _(com.madhouse.android.ads.ee[]) -> a
+    byte[] _(android.content.Context,java.lang.String) -> a
+    void _(android.content.Context,java.lang.String,byte[]) -> a
+    void __(android.content.Context) -> b
+    void ___(android.content.Context) -> c
+    void ____(android.content.Context) -> d
+    byte[] _() -> a
+com.madhouse.android.ads.ee -> com.madhouse.android.ads.s:
+    java.lang.String _ -> a
+    int __ -> b
+    java.lang.String toString() -> toString
+com.madhouse.android.ads.eee -> com.madhouse.android.ads.ap:
+    boolean _ -> a
+    void __(java.lang.String) -> a
+    void ___(java.lang.String) -> b
+    void ____(java.lang.String) -> c
+com.madhouse.android.ads.eeee -> com.madhouse.android.ads.o:
+    int _ -> a
+    int __ -> b
+    int ___ -> c
+    int ____ -> d
+    int _____ -> e
+    int $ -> f
+    byte[] $$ -> g
+    java.lang.String $$$ -> h
+    java.lang.String $$$$ -> i
+    android.graphics.Bitmap $$$$$ -> j
+    android.graphics.Paint a -> k
+    android.graphics.Matrix aa -> l
+    com.madhouse.android.ads.__ aaa -> m
+    android.content.Context aaaa -> n
+    void _() -> a
+    void __() -> b
+    void onMeasure(int,int) -> onMeasure
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    boolean dispatchTrackballEvent(android.view.MotionEvent) -> dispatchTrackballEvent
+    void setPressed(boolean) -> setPressed
+com.madhouse.android.ads.eeeee -> com.madhouse.android.ads.l:
+    int _ -> a
+    boolean __ -> b
+    java.lang.String ___ -> c
+    java.lang.String ____ -> d
+    java.lang.String _____ -> e
+    java.lang.String $ -> f
+    java.lang.String $$ -> g
+    java.lang.String $$$ -> h
+    java.lang.String $$$$ -> i
+    int _(android.content.Context) -> a
+    void _(android.content.Context,java.lang.String,java.lang.String) -> a
+    com.madhouse.android.ads.__ _(android.content.Context,java.lang.String,java.lang.String,int,int,java.lang.String,boolean,java.lang.String) -> a
+    java.lang.String _(java.lang.String,int) -> a
+    java.lang.String _(android.content.Context,java.lang.String,java.lang.String,java.lang.String,int,int,boolean) -> a
+    byte[] _(java.lang.String,java.lang.String,java.lang.String) -> a
+    byte[] _$44c4d6c8(java.lang.String) -> a
+    java.lang.String _(java.lang.String) -> b
+    com.madhouse.android.ads.__ __(java.lang.String) -> c
+    void _(java.lang.StringBuffer,java.lang.String,java.lang.String,boolean) -> a
+    boolean ___(java.lang.String) -> d
+com.madhouse.android.ads.f -> com.madhouse.android.ads.ae:
+    boolean _ -> a
+    java.lang.String _(android.content.Context,java.lang.String) -> a
+    java.lang.String _(java.lang.String) -> a
+    java.lang.String _(android.content.Context) -> a
+    java.lang.String __(android.content.Context) -> b
+    java.lang.String ___(android.content.Context) -> c
+    java.lang.String _() -> a
+    java.lang.String __() -> b
+    java.lang.String ___() -> c
+    int __(java.lang.String) -> b
+    boolean ___(java.lang.String) -> c
+    void __(android.content.Context,java.lang.String) -> b
+    void _(boolean) -> a
+    void ___(android.content.Context,java.lang.String) -> c
+    android.graphics.Bitmap _(android.content.Context,int,int,float) -> a
+com.madhouse.android.ads.ff -> com.madhouse.android.ads.v:
+    com.madhouse.android.ads.AdView _ -> a
+    void run() -> run
+com.madhouse.android.ads.fff -> com.madhouse.android.ads.d:
+    com.madhouse.android.ads.AdView _ -> a
+    void run() -> run
+com.madhouse.android.ads.ffff -> com.madhouse.android.ads.k:
+    com.madhouse.android.ads.fff _ -> a
+    com.madhouse.android.ads.____ __ -> b
+    int ___ -> c
+    boolean ____ -> d
+    int _____ -> e
+    int $ -> f
+    void run() -> run
+com.madhouse.android.ads.fffff -> com.madhouse.android.ads.ay:
+    com.madhouse.android.ads.fff _ -> a
+    com.madhouse.android.ads.eeee __ -> b
+    int ___ -> c
+    void run() -> run
+com.madhouse.android.ads.g -> com.madhouse.android.ads.ad:
+    com.madhouse.android.ads.fffff _ -> a
+    com.madhouse.android.ads.eeee __ -> b
+    void onClick(android.view.View) -> onClick
+com.madhouse.android.ads.gg -> com.madhouse.android.ads.m:
+    com.madhouse.android.ads.AdView _ -> a
+    com.madhouse.android.ads.____ __ -> b
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+com.madhouse.android.ads.ggg -> com.madhouse.android.ads.g:
+    com.madhouse.android.ads.gg _ -> a
+    com.madhouse.android.ads.____ __ -> b
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+com.madhouse.android.ads.gggg -> com.madhouse.android.ads.r:
+    com.madhouse.android.ads.AdView _ -> a
+    com.madhouse.android.ads.____ __ -> b
+    int ___ -> c
+    int ____ -> d
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+com.madhouse.android.ads.ggggg -> com.madhouse.android.ads.t:
+    com.madhouse.android.ads.AdView _ -> a
+    com.madhouse.android.ads.____ __ -> b
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+com.madhouse.android.ads.h -> com.madhouse.android.ads.ag:
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+com.madhouse.android.ads.i -> com.madhouse.android.ads.af:
+    com.madhouse.android.ads.AdView _ -> a
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+com.madhouse.android.ads.j -> com.madhouse.android.ads.aj:
+    com.madhouse.android.ads.____ _ -> a
+    int __ -> b
+    int ____ -> d
+    int _____ -> e
+    com.madhouse.android.ads.AdView ___ -> c
+    void run() -> run
+com.madhouse.android.ads.k -> com.madhouse.android.ads.ai:
+    com.madhouse.android.ads.j _ -> a
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+com.madhouse.android.ads.l -> com.madhouse.android.ads.al:
+    android.content.Context _ -> a
+    java.lang.Thread$UncaughtExceptionHandler __ -> b
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+    java.lang.String _(android.content.Context) -> a
+    void __(android.content.Context) -> b
+com.madhouse.android.ads.m -> com.madhouse.android.ads.ak:
+    int _ -> a
+    java.lang.String __ -> b
+    java.lang.String ___ -> c
+com.madhouse.android.ads.n -> com.madhouse.android.ads.am:
+    byte[] _(android.content.Context,java.lang.String) -> a
+    boolean _(android.content.Context,java.lang.String,byte[]) -> a
+    byte[] _(java.io.InputStream) -> a
+com.mobclick.android.FeedbackStatus -> com.mobclick.android.FeedbackStatus:
+    int SUCCEED -> SUCCEED
+    int FAILED -> FAILED
+    int DISCONNECT -> DISCONNECT
+com.mobclick.android.MobclickAgent -> com.mobclick.android.MobclickAgent:
+    com.mobclick.android.MobclickAgent a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    long f -> f
+    java.lang.String g -> g
+    java.lang.String h -> h
+    int i -> i
+    int j -> j
+    android.content.Context k -> k
+    android.os.Handler l -> l
+    boolean IMEI_MD5 -> IMEI_MD5
+    boolean LOCATION_OPEN -> LOCATION_OPEN
+    java.lang.String m -> m
+    java.lang.String n -> n
+    boolean o -> o
+    com.mobclick.android.UmengUpdateListener p -> p
+    com.mobclick.android.UmengFeedbackListener q -> q
+    boolean r -> r
+    org.json.JSONObject s -> s
+    boolean updateAutoPopup -> updateAutoPopup
+    void setUpdateOnlyWifi(boolean) -> setUpdateOnlyWifi
+    void setFeedbackListener(com.mobclick.android.UmengFeedbackListener) -> setFeedbackListener
+    void setUpdateListener(com.mobclick.android.UmengUpdateListener) -> setUpdateListener
+    void openActivityDurationTrack(boolean) -> openActivityDurationTrack
+    void setReportPolicy(int) -> setReportPolicy
+    void onPause(android.content.Context) -> onPause
+    void onResume(android.content.Context) -> onResume
+    void onError(android.content.Context) -> onError
+    void onResume(android.content.Context,java.lang.String,java.lang.String) -> onResume
+    void flush(android.content.Context) -> flush
+    java.lang.String a(android.content.Context) -> a
+    java.lang.String b(android.content.Context) -> b
+    java.lang.String c(android.content.Context) -> c
+    void initFeedback(android.content.Context) -> initFeedback
+    void openFeedbackActivity(android.content.Context) -> openFeedbackActivity
+    void onFeedbackReturned(org.json.JSONObject) -> onFeedbackReturned
+    void update(android.content.Context) -> update
+    void onEvent(android.content.Context,java.lang.String) -> onEvent
+    void onEvent(android.content.Context,java.lang.String,int) -> onEvent
+    void onEvent(android.content.Context,java.lang.String,java.lang.String) -> onEvent
+    void onEvent(android.content.Context,java.lang.String,java.lang.String,int) -> onEvent
+    void enterPage(android.content.Context,java.lang.String) -> enterPage
+    java.lang.String d(android.content.Context) -> d
+    void a(android.content.Context,java.lang.String,java.lang.String) -> a
+    void e(android.content.Context) -> e
+    void a(android.content.Context,org.json.JSONObject) -> a
+    void a(android.content.Context,java.lang.String) -> a
+    void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,int) -> a
+    void f(android.content.Context) -> f
+    void b(android.content.Context,java.lang.String) -> b
+    boolean a(android.content.SharedPreferences) -> a
+    java.lang.String a(android.content.Context,java.lang.String,android.content.SharedPreferences) -> a
+    java.lang.String a(android.content.Context,android.content.SharedPreferences) -> a
+    void b(android.content.Context,android.content.SharedPreferences) -> b
+    void g(android.content.Context) -> g
+    void b(android.content.Context,org.json.JSONObject) -> b
+    void c(android.content.Context,android.content.SharedPreferences) -> c
+    void a(android.content.Context,android.content.SharedPreferences,java.lang.String,java.lang.String,int) -> a
+    void c(android.content.Context,java.lang.String) -> c
+    void c(android.content.Context,org.json.JSONObject) -> c
+    void d(android.content.Context,java.lang.String) -> d
+    void showUpdateDialog(android.content.Context) -> showUpdateDialog
+    android.app.AlertDialog d(android.content.Context,org.json.JSONObject) -> d
+    void e(android.content.Context,org.json.JSONObject) -> e
+    boolean a(java.lang.String,android.content.Context) -> a
+    java.lang.String a(android.content.Context,org.json.JSONObject,java.lang.String) -> a
+    java.lang.String a(java.io.InputStream) -> a
+    void f(android.content.Context,org.json.JSONObject) -> f
+    org.json.JSONObject h(android.content.Context) -> h
+    void i(android.content.Context) -> i
+    java.lang.String a(java.lang.String) -> a
+    org.json.JSONObject j(android.content.Context) -> j
+    android.content.SharedPreferences k(android.content.Context) -> k
+    android.content.SharedPreferences l(android.content.Context) -> l
+    android.content.SharedPreferences m(android.content.Context) -> m
+    java.lang.String n(android.content.Context) -> n
+    java.lang.String o(android.content.Context) -> o
+    java.lang.String b() -> b
+    boolean p(android.content.Context) -> p
+    java.lang.String[] q(android.content.Context) -> q
+    android.location.Location r(android.content.Context) -> r
+    void setOpenGLContext(javax.microedition.khronos.opengles.GL10) -> setOpenGLContext
+    com.mobclick.android.MobclickAgent a() -> a
+    void a(com.mobclick.android.MobclickAgent,android.content.Context,org.json.JSONObject) -> a
+    void b(com.mobclick.android.MobclickAgent,android.content.Context,org.json.JSONObject) -> b
+    void a(com.mobclick.android.MobclickAgent,android.content.Context) -> a
+    void a(com.mobclick.android.MobclickAgent,android.content.Context,java.lang.String,java.lang.String) -> a
+    void a(com.mobclick.android.MobclickAgent,android.content.Context,java.lang.String) -> a
+    void a(com.mobclick.android.MobclickAgent,android.content.Context,java.lang.String,java.lang.String,java.lang.String,int) -> a
+com.mobclick.android.ReportPolicy -> com.mobclick.android.ReportPolicy:
+    int REALTIME -> REALTIME
+    int BATCH_AT_LAUNCH -> BATCH_AT_LAUNCH
+    int BATCH_AT_TERMINATE -> BATCH_AT_TERMINATE
+    int PUSH -> PUSH
+    int DAILY -> DAILY
+    int WIFIONLY -> WIFIONLY
+com.mobclick.android.UmengFeedback -> com.mobclick.android.UmengFeedback:
+    android.widget.Spinner a -> a
+    android.widget.Spinner b -> b
+    android.widget.EditText c -> c
+    java.lang.String d -> d
+    com.mobclick.android.e e -> e
+    android.content.Context f -> f
+    org.json.JSONObject g -> g
+    void a(android.content.Context) -> a
+    void a(com.mobclick.android.e) -> a
+    org.json.JSONObject a(int,int,java.lang.String) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    int a(android.content.Context,java.lang.String,java.lang.String) -> a
+    void b() -> b
+    android.widget.Spinner a(com.mobclick.android.UmengFeedback) -> a
+    android.widget.Spinner b(com.mobclick.android.UmengFeedback) -> b
+    android.widget.EditText c(com.mobclick.android.UmengFeedback) -> c
+    org.json.JSONObject a(com.mobclick.android.UmengFeedback,int,int,java.lang.String) -> a
+    void a(com.mobclick.android.UmengFeedback,org.json.JSONObject) -> a
+    com.mobclick.android.e a() -> a
+    org.json.JSONObject d(com.mobclick.android.UmengFeedback) -> d
+com.mobclick.android.UmengFeedbackListener -> com.mobclick.android.UmengFeedbackListener:
+    void onFeedbackReturned(int) -> onFeedbackReturned
+com.mobclick.android.UmengUpdateListener -> com.mobclick.android.UmengUpdateListener:
+    void onUpdateReturned(int) -> onUpdateReturned
+com.mobclick.android.UpdateStatus -> com.mobclick.android.UpdateStatus:
+    int Yes -> Yes
+    int No -> No
+    int NoneWifi -> NoneWifi
+    int Timeout -> Timeout
+com.mobclick.android.a -> com.mobclick.android.a:
+    android.content.Context a -> a
+    int b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    android.app.Notification f -> f
+    android.app.NotificationManager g -> g
+    int h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    boolean k -> k
+    boolean l -> l
+    int m -> m
+    android.os.Handler n -> n
+    boolean a() -> a
+    int a(java.lang.String,java.lang.String) -> a
+    void a(java.lang.String) -> a
+    void b(java.lang.String) -> b
+    void a(int) -> a
+    void a(boolean) -> a
+    void b() -> b
+    void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    void b(boolean) -> b
+    void c() -> c
+    void c(java.lang.String) -> c
+    boolean d() -> d
+    boolean e() -> e
+    java.lang.String f() -> f
+    java.lang.String a(com.mobclick.android.a) -> a
+    java.lang.String b(com.mobclick.android.a) -> b
+    android.content.Context c(com.mobclick.android.a) -> c
+    void a(com.mobclick.android.a,boolean) -> a
+    int d(com.mobclick.android.a) -> d
+    boolean e(com.mobclick.android.a) -> e
+    void b(com.mobclick.android.a,boolean) -> b
+com.mobclick.android.b -> com.mobclick.android.b:
+    com.mobclick.android.a a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.mobclick.android.c -> com.mobclick.android.c:
+    com.mobclick.android.a a -> a
+    void run() -> run
+com.mobclick.android.d -> com.mobclick.android.d:
+    int a -> a
+    int b -> b
+    int c -> c
+com.mobclick.android.e -> com.mobclick.android.e:
+    void onFeedbackReturned(org.json.JSONObject) -> onFeedbackReturned
+com.mobclick.android.f -> com.mobclick.android.f:
+    android.location.LocationManager a -> a
+    android.content.Context b -> b
+    android.location.Location a() -> a
+com.mobclick.android.g -> com.mobclick.android.g:
+    android.content.Context a -> a
+    java.lang.String b -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.mobclick.android.h -> com.mobclick.android.h:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.mobclick.android.i -> com.mobclick.android.i:
+    java.lang.Object a -> a
+    android.content.Context b -> b
+    int c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    int h -> h
+    void run() -> run
+com.mobclick.android.j -> com.mobclick.android.j:
+    java.lang.Object a -> a
+    com.mobclick.android.MobclickAgent b -> b
+    android.content.Context c -> c
+    org.json.JSONObject d -> d
+    void run() -> run
+com.mobclick.android.k -> com.mobclick.android.k:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    java.lang.String k -> k
+    java.lang.String[] l -> l
+    java.lang.String[] m -> m
+    java.lang.String[] n -> n
+    java.lang.String[] o -> o
+    java.lang.String p -> p
+    java.lang.String q -> q
+    java.lang.String r -> r
+    java.lang.String s -> s
+    java.lang.String t -> t
+    java.lang.String u -> u
+    java.lang.String v -> v
+    java.lang.String w -> w
+    java.lang.String x -> x
+    java.lang.String y -> y
+    java.lang.String z -> z
+    java.lang.String A -> A
+    java.lang.String B -> B
+    java.lang.String C -> C
+    java.lang.String a() -> a
+    java.lang.String b() -> b
+    java.lang.String a(android.content.Context) -> a
+    java.lang.String c() -> c
+    java.lang.String d() -> d
+    java.lang.String b(android.content.Context) -> b
+    java.lang.String e() -> e
+    java.lang.String f() -> f
+    java.lang.String c(android.content.Context) -> c
+    java.lang.String g() -> g
+    java.lang.String h() -> h
+    java.lang.String d(android.content.Context) -> d
+    java.lang.String i() -> i
+    java.lang.String j() -> j
+    java.lang.String e(android.content.Context) -> e
+    java.lang.String[] k() -> k
+    java.lang.String[] l() -> l
+    java.lang.String[] f(android.content.Context) -> f
+    java.lang.String[] m() -> m
+    java.lang.String[] n() -> n
+    java.lang.String[] g(android.content.Context) -> g
+    java.lang.String o() -> o
+    java.lang.String p() -> p
+    java.lang.String h(android.content.Context) -> h
+    java.lang.String q() -> q
+    java.lang.String r() -> r
+    java.lang.String i(android.content.Context) -> i
+    java.lang.String j(android.content.Context) -> j
+    java.lang.String s() -> s
+    java.lang.String t() -> t
+    java.lang.String k(android.content.Context) -> k
+    java.lang.String u() -> u
+    java.lang.String v() -> v
+    java.lang.String l(android.content.Context) -> l
+    java.lang.String w() -> w
+    java.lang.String x() -> x
+    java.lang.String m(android.content.Context) -> m
+    java.lang.String y() -> y
+    java.lang.String z() -> z
+    java.lang.String n(android.content.Context) -> n
+    java.lang.String A() -> A
+    java.util.Date a(java.lang.String) -> a
+    int a(java.util.Date,java.util.Date) -> a
+com.mobclick.android.l -> com.mobclick.android.l:
+    boolean a(android.content.Context,java.lang.String) -> a
+    java.lang.String[] a(javax.microedition.khronos.opengles.GL10) -> a
+    java.lang.String a() -> a
+com.mobclick.android.m -> com.mobclick.android.m:
+    com.mobclick.android.UmengFeedback a -> a
+    void onClick(android.view.View) -> onClick
+com.mobclick.android.n -> com.mobclick.android.n:
+    java.lang.String a(android.content.Context) -> a

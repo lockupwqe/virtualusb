@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="ftp_name">虚拟数据线</string>
+	<string name="storage_warning">扩展存储不可用</string>
+	
+	<string name="server_stop">服务关闭</string>
+	<string name="server_start">服务开启</string>
+	<string name="stop_server">服务关闭成功!</string>
+	<string name="start_server">服务开启成功!</string>
+	
+	<string name="feedback_ok">提交成功,感谢您的支持!</string>
+	<string name="feedback_failed">提交失败!</string>
+	<string name="feedback_no_connect">没有可用的网络连接!</string>
+	
+	<string name="ok">确定</string>
+	<string name="cancel">取消</string>
+	<string name="feedback">反馈</string>
+	<string name="exit">退出</string>
+	<string name="setting">设置</string>
+	
+	<string name="notice">请访问：ftp://</string>
+	<string name="set_access">设置访问账号密码</string>	
+	<string name="login_error">登录名和密码不能为空!</string>
+	<string name="error_wifi">请确认wifi是否开启</string>
+	<string name="exit_notice">再按一次后退键退出应用程序</string>
+	<string name="stay_awake_notice">服务开启时将持续待机状态</string>
+</resources>

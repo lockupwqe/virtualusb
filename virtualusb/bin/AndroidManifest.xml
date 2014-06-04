@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appswhere.virtualusb" android:versionCode="2" android:versionName="1.1" >
+
+    <application android:label="@string/ftp_name" android:icon="@drawable/logo" android:debuggable="true">
+    
+        <activity android:name=".FtpControlActivity" android:screenOrientation="portrait">
+            <intent-filter>              
+                <action android:name="android.intent.action.MAIN" />               
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> 
+        </activity>
+        <activity android:name=".HelpActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.mobclick.android.UmengFeedback" />  
+		<activity android:name="cn.domob.android.ads.DomobActivity" android:theme="@android:style/Theme.Translucent" />
+        <service android:name="com.appswhere.core.FTPServerService" />
+        <meta-data android:value="4ec1e9625270150f1b000001" android:name="UMENG_APPKEY"></meta-data> 
+        <meta-data android:value="cdba6efa135e46dcbf2ae1371362f510" android:name="ADMOGO_KEY" />      
+	</application> 
+
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+<uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+<uses-permission android:name="android.permission.DISABLE_KEYGUARD"></uses-permission>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+<uses-sdk android:minSdkVersion="4"></uses-sdk>
+
+</manifest>
